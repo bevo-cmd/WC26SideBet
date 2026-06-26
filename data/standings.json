@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T21:19:25.369Z",
+  "updatedAt": "2026-06-26T10:30:25.450Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -19,6 +19,69 @@
     }
   },
   "players": [
+    {
+      "id": "bev",
+      "name": "Bev",
+      "total": 24,
+      "teams": [
+        {
+          "id": "argentina",
+          "name": "Argentina",
+          "flag": "🇦🇷",
+          "group": "J",
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "matchPoints": 6,
+          "stage": "group",
+          "stageLabel": "Group stage",
+          "stageBonus": 0,
+          "total": 6
+        },
+        {
+          "id": "turkiye",
+          "name": "Türkiye",
+          "flag": "🇹🇷",
+          "group": "D",
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "matchPoints": 3,
+          "stage": "group",
+          "stageLabel": "Group stage",
+          "stageBonus": 0,
+          "total": 3
+        },
+        {
+          "id": "south-africa",
+          "name": "South Africa",
+          "flag": "🇿🇦",
+          "group": "A",
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "matchPoints": 4,
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "total": 9
+        },
+        {
+          "id": "cote-divoire",
+          "name": "Ivory Coast",
+          "flag": "🇨🇮",
+          "group": "E",
+          "w": 2,
+          "d": 0,
+          "l": 1,
+          "matchPoints": 6,
+          "stage": "group",
+          "stageLabel": "Group stage",
+          "stageBonus": 0,
+          "total": 6
+        }
+      ]
+    },
     {
       "id": "sa",
       "name": "Sa",
@@ -45,7 +108,7 @@
           "group": "D",
           "w": 2,
           "d": 0,
-          "l": 0,
+          "l": 1,
           "matchPoints": 6,
           "stage": "r32",
           "stageLabel": "Round of 32",
@@ -85,7 +148,7 @@
     {
       "id": "kris",
       "name": "Kris",
-      "total": 22,
+      "total": 23,
       "teams": [
         {
           "id": "brazil",
@@ -121,13 +184,13 @@
           "flag": "🇸🇪",
           "group": "F",
           "w": 1,
-          "d": 0,
+          "d": 1,
           "l": 1,
-          "matchPoints": 3,
+          "matchPoints": 4,
           "stage": "group",
           "stageLabel": "Group stage",
           "stageBonus": 0,
-          "total": 3
+          "total": 4
         },
         {
           "id": "bosnia-herzegovina",
@@ -146,86 +209,23 @@
       ]
     },
     {
-      "id": "bev",
-      "name": "Bev",
-      "total": 18,
-      "teams": [
-        {
-          "id": "argentina",
-          "name": "Argentina",
-          "flag": "🇦🇷",
-          "group": "J",
-          "w": 2,
-          "d": 0,
-          "l": 0,
-          "matchPoints": 6,
-          "stage": "group",
-          "stageLabel": "Group stage",
-          "stageBonus": 0,
-          "total": 6
-        },
-        {
-          "id": "turkiye",
-          "name": "Türkiye",
-          "flag": "🇹🇷",
-          "group": "D",
-          "w": 0,
-          "d": 0,
-          "l": 2,
-          "matchPoints": 0,
-          "stage": "group",
-          "stageLabel": "Group stage",
-          "stageBonus": 0,
-          "total": 0
-        },
-        {
-          "id": "south-africa",
-          "name": "South Africa",
-          "flag": "🇿🇦",
-          "group": "A",
-          "w": 1,
-          "d": 1,
-          "l": 1,
-          "matchPoints": 4,
-          "stage": "r32",
-          "stageLabel": "Round of 32",
-          "stageBonus": 5,
-          "total": 9
-        },
-        {
-          "id": "cote-divoire",
-          "name": "Ivory Coast",
-          "flag": "🇨🇮",
-          "group": "E",
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "matchPoints": 3,
-          "stage": "group",
-          "stageLabel": "Group stage",
-          "stageBonus": 0,
-          "total": 3
-        }
-      ]
-    },
-    {
       "id": "faisal",
       "name": "Faisal",
-      "total": 17,
+      "total": 20,
       "teams": [
         {
           "id": "netherlands",
           "name": "Netherlands",
           "flag": "🇳🇱",
           "group": "F",
-          "w": 1,
+          "w": 2,
           "d": 1,
           "l": 0,
-          "matchPoints": 4,
+          "matchPoints": 7,
           "stage": "group",
           "stageLabel": "Group stage",
           "stageBonus": 0,
-          "total": 4
+          "total": 7
         },
         {
           "id": "south-korea",
@@ -511,7 +511,7 @@
       "group": "D",
       "w": 2,
       "d": 0,
-      "l": 0,
+      "l": 1,
       "matchPoints": 6,
       "stage": "r32",
       "stageLabel": "Round of 32",
@@ -524,13 +524,13 @@
       "flag": "🇦🇺",
       "group": "D",
       "w": 1,
-      "d": 0,
+      "d": 1,
       "l": 1,
-      "matchPoints": 3,
+      "matchPoints": 4,
       "stage": "group",
       "stageLabel": "Group stage",
       "stageBonus": 0,
-      "total": 3
+      "total": 4
     },
     "paraguay": {
       "id": "paraguay",
@@ -538,27 +538,27 @@
       "flag": "🇵🇾",
       "group": "D",
       "w": 1,
-      "d": 0,
+      "d": 1,
       "l": 1,
-      "matchPoints": 3,
+      "matchPoints": 4,
       "stage": "group",
       "stageLabel": "Group stage",
       "stageBonus": 0,
-      "total": 3
+      "total": 4
     },
     "turkiye": {
       "id": "turkiye",
       "name": "Türkiye",
       "flag": "🇹🇷",
       "group": "D",
-      "w": 0,
+      "w": 1,
       "d": 0,
       "l": 2,
-      "matchPoints": 0,
+      "matchPoints": 3,
       "stage": "group",
       "stageLabel": "Group stage",
       "stageBonus": 0,
-      "total": 0
+      "total": 3
     },
     "germany": {
       "id": "germany",
@@ -567,7 +567,7 @@
       "group": "E",
       "w": 2,
       "d": 0,
-      "l": 0,
+      "l": 1,
       "matchPoints": 6,
       "stage": "r32",
       "stageLabel": "Round of 32",
@@ -579,28 +579,28 @@
       "name": "Ivory Coast",
       "flag": "🇨🇮",
       "group": "E",
-      "w": 1,
+      "w": 2,
       "d": 0,
       "l": 1,
-      "matchPoints": 3,
+      "matchPoints": 6,
       "stage": "group",
       "stageLabel": "Group stage",
       "stageBonus": 0,
-      "total": 3
+      "total": 6
     },
     "ecuador": {
       "id": "ecuador",
       "name": "Ecuador",
       "flag": "🇪🇨",
       "group": "E",
-      "w": 0,
+      "w": 1,
       "d": 1,
       "l": 1,
-      "matchPoints": 1,
+      "matchPoints": 4,
       "stage": "group",
       "stageLabel": "Group stage",
       "stageBonus": 0,
-      "total": 1
+      "total": 4
     },
     "curacao": {
       "id": "curacao",
@@ -609,7 +609,7 @@
       "group": "E",
       "w": 0,
       "d": 1,
-      "l": 1,
+      "l": 2,
       "matchPoints": 1,
       "stage": "group",
       "stageLabel": "Group stage",
@@ -621,14 +621,14 @@
       "name": "Netherlands",
       "flag": "🇳🇱",
       "group": "F",
-      "w": 1,
+      "w": 2,
       "d": 1,
       "l": 0,
-      "matchPoints": 4,
+      "matchPoints": 7,
       "stage": "group",
       "stageLabel": "Group stage",
       "stageBonus": 0,
-      "total": 4
+      "total": 7
     },
     "japan": {
       "id": "japan",
@@ -636,13 +636,13 @@
       "flag": "🇯🇵",
       "group": "F",
       "w": 1,
-      "d": 1,
+      "d": 2,
       "l": 0,
-      "matchPoints": 4,
+      "matchPoints": 5,
       "stage": "group",
       "stageLabel": "Group stage",
       "stageBonus": 0,
-      "total": 4
+      "total": 5
     },
     "sweden": {
       "id": "sweden",
@@ -650,13 +650,13 @@
       "flag": "🇸🇪",
       "group": "F",
       "w": 1,
-      "d": 0,
+      "d": 1,
       "l": 1,
-      "matchPoints": 3,
+      "matchPoints": 4,
       "stage": "group",
       "stageLabel": "Group stage",
       "stageBonus": 0,
-      "total": 3
+      "total": 4
     },
     "tunisia": {
       "id": "tunisia",
@@ -665,7 +665,7 @@
       "group": "F",
       "w": 0,
       "d": 0,
-      "l": 2,
+      "l": 3,
       "matchPoints": 0,
       "stage": "group",
       "stageLabel": "Group stage",
