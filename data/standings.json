@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T18:13:18.578Z",
+  "updatedAt": "2026-06-26T23:47:59.633Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -199,7 +199,7 @@
           "group": "I",
           "w": 2,
           "d": 0,
-          "l": 0,
+          "l": 1,
           "matchPoints": 6,
           "stage": "group",
           "stageLabel": "Group stage",
@@ -789,14 +789,14 @@
       "name": "France",
       "flag": "🇫🇷",
       "group": "I",
-      "w": 2,
+      "w": 3,
       "d": 0,
       "l": 0,
-      "matchPoints": 6,
+      "matchPoints": 9,
       "stage": "group",
       "stageLabel": "Group stage",
       "stageBonus": 0,
-      "total": 6
+      "total": 9
     },
     "norway": {
       "id": "norway",
@@ -805,7 +805,7 @@
       "group": "I",
       "w": 2,
       "d": 0,
-      "l": 0,
+      "l": 1,
       "matchPoints": 6,
       "stage": "group",
       "stageLabel": "Group stage",
@@ -817,14 +817,14 @@
       "name": "Senegal",
       "flag": "🇸🇳",
       "group": "I",
-      "w": 0,
+      "w": 1,
       "d": 0,
       "l": 2,
-      "matchPoints": 0,
+      "matchPoints": 3,
       "stage": "group",
       "stageLabel": "Group stage",
       "stageBonus": 0,
-      "total": 0
+      "total": 3
     },
     "iraq": {
       "id": "iraq",
@@ -833,7 +833,7 @@
       "group": "I",
       "w": 0,
       "d": 0,
-      "l": 2,
+      "l": 3,
       "matchPoints": 0,
       "stage": "group",
       "stageLabel": "Group stage",
