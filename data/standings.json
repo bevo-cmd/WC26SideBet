@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T10:30:25.450Z",
+  "updatedAt": "2026-06-26T18:13:18.578Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -22,7 +22,7 @@
     {
       "id": "bev",
       "name": "Bev",
-      "total": 24,
+      "total": 29,
       "teams": [
         {
           "id": "argentina",
@@ -75,10 +75,73 @@
           "d": 0,
           "l": 1,
           "matchPoints": 6,
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "total": 11
+        }
+      ]
+    },
+    {
+      "id": "faisal",
+      "name": "Faisal",
+      "total": 25,
+      "teams": [
+        {
+          "id": "netherlands",
+          "name": "Netherlands",
+          "flag": "🇳🇱",
+          "group": "F",
+          "w": 2,
+          "d": 1,
+          "l": 0,
+          "matchPoints": 7,
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "total": 12
+        },
+        {
+          "id": "south-korea",
+          "name": "South Korea",
+          "flag": "🇰🇷",
+          "group": "A",
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "matchPoints": 3,
           "stage": "group",
           "stageLabel": "Group stage",
           "stageBonus": 0,
-          "total": 6
+          "total": 3
+        },
+        {
+          "id": "dr-congo",
+          "name": "DR Congo",
+          "flag": "🇨🇩",
+          "group": "K",
+          "w": 0,
+          "d": 1,
+          "l": 1,
+          "matchPoints": 1,
+          "stage": "group",
+          "stageLabel": "Group stage",
+          "stageBonus": 0,
+          "total": 1
+        },
+        {
+          "id": "canada",
+          "name": "Canada",
+          "flag": "🇨🇦",
+          "group": "B",
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "matchPoints": 4,
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "total": 9
         }
       ]
     },
@@ -205,69 +268,6 @@
           "stageLabel": "Group stage",
           "stageBonus": 0,
           "total": 4
-        }
-      ]
-    },
-    {
-      "id": "faisal",
-      "name": "Faisal",
-      "total": 20,
-      "teams": [
-        {
-          "id": "netherlands",
-          "name": "Netherlands",
-          "flag": "🇳🇱",
-          "group": "F",
-          "w": 2,
-          "d": 1,
-          "l": 0,
-          "matchPoints": 7,
-          "stage": "group",
-          "stageLabel": "Group stage",
-          "stageBonus": 0,
-          "total": 7
-        },
-        {
-          "id": "south-korea",
-          "name": "South Korea",
-          "flag": "🇰🇷",
-          "group": "A",
-          "w": 1,
-          "d": 0,
-          "l": 2,
-          "matchPoints": 3,
-          "stage": "group",
-          "stageLabel": "Group stage",
-          "stageBonus": 0,
-          "total": 3
-        },
-        {
-          "id": "dr-congo",
-          "name": "DR Congo",
-          "flag": "🇨🇩",
-          "group": "K",
-          "w": 0,
-          "d": 1,
-          "l": 1,
-          "matchPoints": 1,
-          "stage": "group",
-          "stageLabel": "Group stage",
-          "stageBonus": 0,
-          "total": 1
-        },
-        {
-          "id": "canada",
-          "name": "Canada",
-          "flag": "🇨🇦",
-          "group": "B",
-          "w": 1,
-          "d": 1,
-          "l": 1,
-          "matchPoints": 4,
-          "stage": "r32",
-          "stageLabel": "Round of 32",
-          "stageBonus": 5,
-          "total": 9
         }
       ]
     },
@@ -527,10 +527,10 @@
       "d": 1,
       "l": 1,
       "matchPoints": 4,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 4
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 9
     },
     "paraguay": {
       "id": "paraguay",
@@ -583,10 +583,10 @@
       "d": 0,
       "l": 1,
       "matchPoints": 6,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 6
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 11
     },
     "ecuador": {
       "id": "ecuador",
@@ -625,10 +625,10 @@
       "d": 1,
       "l": 0,
       "matchPoints": 7,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 7
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 12
     },
     "japan": {
       "id": "japan",
@@ -639,10 +639,10 @@
       "d": 2,
       "l": 0,
       "matchPoints": 5,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 5
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 10
     },
     "sweden": {
       "id": "sweden",
