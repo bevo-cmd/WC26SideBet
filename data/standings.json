@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T23:47:59.633Z",
+  "updatedAt": "2026-06-27T09:33:09.467Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -274,21 +274,21 @@
     {
       "id": "brian",
       "name": "Brian",
-      "total": 7,
+      "total": 11,
       "teams": [
         {
           "id": "spain",
           "name": "Spain",
           "flag": "🇪🇸",
           "group": "H",
-          "w": 1,
+          "w": 2,
           "d": 1,
           "l": 0,
-          "matchPoints": 4,
+          "matchPoints": 7,
           "stage": "group",
           "stageLabel": "Group stage",
           "stageBonus": 0,
-          "total": 4
+          "total": 7
         },
         {
           "id": "iran",
@@ -296,13 +296,13 @@
           "flag": "🇮🇷",
           "group": "G",
           "w": 0,
-          "d": 2,
+          "d": 3,
           "l": 0,
-          "matchPoints": 2,
+          "matchPoints": 3,
           "stage": "group",
           "stageLabel": "Group stage",
           "stageBonus": 0,
-          "total": 2
+          "total": 3
         },
         {
           "id": "jordan",
@@ -678,13 +678,13 @@
       "flag": "🇪🇬",
       "group": "G",
       "w": 1,
-      "d": 1,
+      "d": 2,
       "l": 0,
-      "matchPoints": 4,
+      "matchPoints": 5,
       "stage": "group",
       "stageLabel": "Group stage",
       "stageBonus": 0,
-      "total": 4
+      "total": 5
     },
     "iran": {
       "id": "iran",
@@ -692,27 +692,27 @@
       "flag": "🇮🇷",
       "group": "G",
       "w": 0,
-      "d": 2,
+      "d": 3,
       "l": 0,
-      "matchPoints": 2,
+      "matchPoints": 3,
       "stage": "group",
       "stageLabel": "Group stage",
       "stageBonus": 0,
-      "total": 2
+      "total": 3
     },
     "belgium": {
       "id": "belgium",
       "name": "Belgium",
       "flag": "🇧🇪",
       "group": "G",
-      "w": 0,
+      "w": 1,
       "d": 2,
       "l": 0,
-      "matchPoints": 2,
+      "matchPoints": 5,
       "stage": "group",
       "stageLabel": "Group stage",
       "stageBonus": 0,
-      "total": 2
+      "total": 5
     },
     "new-zealand": {
       "id": "new-zealand",
@@ -721,7 +721,7 @@
       "group": "G",
       "w": 0,
       "d": 1,
-      "l": 1,
+      "l": 2,
       "matchPoints": 1,
       "stage": "group",
       "stageLabel": "Group stage",
@@ -733,14 +733,14 @@
       "name": "Spain",
       "flag": "🇪🇸",
       "group": "H",
-      "w": 1,
+      "w": 2,
       "d": 1,
       "l": 0,
-      "matchPoints": 4,
+      "matchPoints": 7,
       "stage": "group",
       "stageLabel": "Group stage",
       "stageBonus": 0,
-      "total": 4
+      "total": 7
     },
     "uruguay": {
       "id": "uruguay",
@@ -749,7 +749,7 @@
       "group": "H",
       "w": 0,
       "d": 2,
-      "l": 0,
+      "l": 1,
       "matchPoints": 2,
       "stage": "group",
       "stageLabel": "Group stage",
@@ -762,13 +762,13 @@
       "flag": "🇨🇻",
       "group": "H",
       "w": 0,
-      "d": 2,
+      "d": 3,
       "l": 0,
-      "matchPoints": 2,
+      "matchPoints": 3,
       "stage": "group",
       "stageLabel": "Group stage",
       "stageBonus": 0,
-      "total": 2
+      "total": 3
     },
     "saudi-arabia": {
       "id": "saudi-arabia",
@@ -776,13 +776,13 @@
       "flag": "🇸🇦",
       "group": "H",
       "w": 0,
-      "d": 1,
+      "d": 2,
       "l": 1,
-      "matchPoints": 1,
+      "matchPoints": 2,
       "stage": "group",
       "stageLabel": "Group stage",
       "stageBonus": 0,
-      "total": 1
+      "total": 2
     },
     "france": {
       "id": "france",
