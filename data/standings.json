@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T20:17:57.252Z",
+  "updatedAt": "2026-06-28T08:35:45.615Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -20,23 +20,86 @@
   },
   "players": [
     {
+      "id": "kris",
+      "name": "Kris",
+      "total": 39,
+      "teams": [
+        {
+          "id": "brazil",
+          "name": "Brazil",
+          "flag": "🇧🇷",
+          "group": "C",
+          "w": 2,
+          "d": 1,
+          "l": 0,
+          "matchPoints": 7,
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "total": 12
+        },
+        {
+          "id": "austria",
+          "name": "Austria",
+          "flag": "🇦🇹",
+          "group": "J",
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "matchPoints": 4,
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "total": 9
+        },
+        {
+          "id": "sweden",
+          "name": "Sweden",
+          "flag": "🇸🇪",
+          "group": "F",
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "matchPoints": 4,
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "total": 9
+        },
+        {
+          "id": "bosnia-herzegovina",
+          "name": "Bosnia & Herzegovina",
+          "flag": "🇧🇦",
+          "group": "B",
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "matchPoints": 4,
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "total": 9
+        }
+      ]
+    },
+    {
       "id": "bev",
       "name": "Bev",
-      "total": 29,
+      "total": 37,
       "teams": [
         {
           "id": "argentina",
           "name": "Argentina",
           "flag": "🇦🇷",
           "group": "J",
-          "w": 2,
+          "w": 3,
           "d": 0,
           "l": 0,
-          "matchPoints": 6,
-          "stage": "group",
-          "stageLabel": "Group stage",
-          "stageBonus": 0,
-          "total": 6
+          "matchPoints": 9,
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "total": 14
         },
         {
           "id": "turkiye",
@@ -83,15 +146,15 @@
       ]
     },
     {
-      "id": "faisal",
-      "name": "Faisal",
-      "total": 25,
+      "id": "sa",
+      "name": "Sa",
+      "total": 37,
       "teams": [
         {
-          "id": "netherlands",
-          "name": "Netherlands",
-          "flag": "🇳🇱",
-          "group": "F",
+          "id": "england",
+          "name": "England",
+          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "group": "L",
           "w": 2,
           "d": 1,
           "l": 0,
@@ -100,69 +163,6 @@
           "stageLabel": "Round of 32",
           "stageBonus": 5,
           "total": 12
-        },
-        {
-          "id": "south-korea",
-          "name": "South Korea",
-          "flag": "🇰🇷",
-          "group": "A",
-          "w": 1,
-          "d": 0,
-          "l": 2,
-          "matchPoints": 3,
-          "stage": "group",
-          "stageLabel": "Group stage",
-          "stageBonus": 0,
-          "total": 3
-        },
-        {
-          "id": "dr-congo",
-          "name": "DR Congo",
-          "flag": "🇨🇩",
-          "group": "K",
-          "w": 0,
-          "d": 1,
-          "l": 1,
-          "matchPoints": 1,
-          "stage": "group",
-          "stageLabel": "Group stage",
-          "stageBonus": 0,
-          "total": 1
-        },
-        {
-          "id": "canada",
-          "name": "Canada",
-          "flag": "🇨🇦",
-          "group": "B",
-          "w": 1,
-          "d": 1,
-          "l": 1,
-          "matchPoints": 4,
-          "stage": "r32",
-          "stageLabel": "Round of 32",
-          "stageBonus": 5,
-          "total": 9
-        }
-      ]
-    },
-    {
-      "id": "sa",
-      "name": "Sa",
-      "total": 24,
-      "teams": [
-        {
-          "id": "england",
-          "name": "England",
-          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-          "group": "L",
-          "w": 1,
-          "d": 1,
-          "l": 0,
-          "matchPoints": 4,
-          "stage": "group",
-          "stageLabel": "Group stage",
-          "stageBonus": 0,
-          "total": 4
         },
         {
           "id": "united-states",
@@ -201,23 +201,23 @@
           "d": 0,
           "l": 1,
           "matchPoints": 6,
-          "stage": "group",
-          "stageLabel": "Group stage",
-          "stageBonus": 0,
-          "total": 6
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "total": 11
         }
       ]
     },
     {
-      "id": "kris",
-      "name": "Kris",
-      "total": 23,
+      "id": "faisal",
+      "name": "Faisal",
+      "total": 33,
       "teams": [
         {
-          "id": "brazil",
-          "name": "Brazil",
-          "flag": "🇧🇷",
-          "group": "C",
+          "id": "netherlands",
+          "name": "Netherlands",
+          "flag": "🇳🇱",
+          "group": "F",
           "w": 2,
           "d": 1,
           "l": 0,
@@ -228,13 +228,13 @@
           "total": 12
         },
         {
-          "id": "austria",
-          "name": "Austria",
-          "flag": "🇦🇹",
-          "group": "J",
+          "id": "south-korea",
+          "name": "South Korea",
+          "flag": "🇰🇷",
+          "group": "A",
           "w": 1,
           "d": 0,
-          "l": 1,
+          "l": 2,
           "matchPoints": 3,
           "stage": "group",
           "stageLabel": "Group stage",
@@ -242,39 +242,39 @@
           "total": 3
         },
         {
-          "id": "sweden",
-          "name": "Sweden",
-          "flag": "🇸🇪",
-          "group": "F",
+          "id": "dr-congo",
+          "name": "DR Congo",
+          "flag": "🇨🇩",
+          "group": "K",
           "w": 1,
           "d": 1,
           "l": 1,
           "matchPoints": 4,
-          "stage": "group",
-          "stageLabel": "Group stage",
-          "stageBonus": 0,
-          "total": 4
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "total": 9
         },
         {
-          "id": "bosnia-herzegovina",
-          "name": "Bosnia & Herzegovina",
-          "flag": "🇧🇦",
+          "id": "canada",
+          "name": "Canada",
+          "flag": "🇨🇦",
           "group": "B",
           "w": 1,
           "d": 1,
           "l": 1,
           "matchPoints": 4,
-          "stage": "group",
-          "stageLabel": "Group stage",
-          "stageBonus": 0,
-          "total": 4
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "total": 9
         }
       ]
     },
     {
       "id": "brian",
       "name": "Brian",
-      "total": 11,
+      "total": 16,
       "teams": [
         {
           "id": "spain",
@@ -285,10 +285,10 @@
           "d": 1,
           "l": 0,
           "matchPoints": 7,
-          "stage": "group",
-          "stageLabel": "Group stage",
-          "stageBonus": 0,
-          "total": 7
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "total": 12
         },
         {
           "id": "iran",
@@ -311,7 +311,7 @@
           "group": "J",
           "w": 0,
           "d": 0,
-          "l": 2,
+          "l": 3,
           "matchPoints": 0,
           "stage": "group",
           "stageLabel": "Group stage",
@@ -429,10 +429,10 @@
       "d": 1,
       "l": 1,
       "matchPoints": 4,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 4
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 9
     },
     "qatar": {
       "id": "qatar",
@@ -541,10 +541,10 @@
       "d": 1,
       "l": 1,
       "matchPoints": 4,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 4
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 9
     },
     "turkiye": {
       "id": "turkiye",
@@ -597,10 +597,10 @@
       "d": 1,
       "l": 1,
       "matchPoints": 4,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 4
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 9
     },
     "curacao": {
       "id": "curacao",
@@ -653,10 +653,10 @@
       "d": 1,
       "l": 1,
       "matchPoints": 4,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 4
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 9
     },
     "tunisia": {
       "id": "tunisia",
@@ -681,10 +681,10 @@
       "d": 2,
       "l": 0,
       "matchPoints": 5,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 5
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 10
     },
     "iran": {
       "id": "iran",
@@ -709,10 +709,10 @@
       "d": 2,
       "l": 0,
       "matchPoints": 5,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 5
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 10
     },
     "new-zealand": {
       "id": "new-zealand",
@@ -737,10 +737,10 @@
       "d": 1,
       "l": 0,
       "matchPoints": 7,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 7
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 12
     },
     "uruguay": {
       "id": "uruguay",
@@ -765,10 +765,10 @@
       "d": 3,
       "l": 0,
       "matchPoints": 3,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 3
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 8
     },
     "saudi-arabia": {
       "id": "saudi-arabia",
@@ -793,10 +793,10 @@
       "d": 0,
       "l": 0,
       "matchPoints": 9,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 9
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 14
     },
     "norway": {
       "id": "norway",
@@ -807,10 +807,10 @@
       "d": 0,
       "l": 1,
       "matchPoints": 6,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 6
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 11
     },
     "senegal": {
       "id": "senegal",
@@ -821,10 +821,10 @@
       "d": 0,
       "l": 2,
       "matchPoints": 3,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 3
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 8
     },
     "iraq": {
       "id": "iraq",
@@ -845,14 +845,14 @@
       "name": "Argentina",
       "flag": "🇦🇷",
       "group": "J",
-      "w": 2,
+      "w": 3,
       "d": 0,
       "l": 0,
-      "matchPoints": 6,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 6
+      "matchPoints": 9,
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 14
     },
     "austria": {
       "id": "austria",
@@ -860,13 +860,13 @@
       "flag": "🇦🇹",
       "group": "J",
       "w": 1,
-      "d": 0,
+      "d": 1,
       "l": 1,
-      "matchPoints": 3,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 3
+      "matchPoints": 4,
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 9
     },
     "algeria": {
       "id": "algeria",
@@ -874,13 +874,13 @@
       "flag": "🇩🇿",
       "group": "J",
       "w": 1,
-      "d": 0,
+      "d": 1,
       "l": 1,
-      "matchPoints": 3,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 3
+      "matchPoints": 4,
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 9
     },
     "jordan": {
       "id": "jordan",
@@ -889,7 +889,7 @@
       "group": "J",
       "w": 0,
       "d": 0,
-      "l": 2,
+      "l": 3,
       "matchPoints": 0,
       "stage": "group",
       "stageLabel": "Group stage",
@@ -902,13 +902,13 @@
       "flag": "🇨🇴",
       "group": "K",
       "w": 2,
-      "d": 0,
+      "d": 1,
       "l": 0,
-      "matchPoints": 6,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 6
+      "matchPoints": 7,
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 12
     },
     "portugal": {
       "id": "portugal",
@@ -916,27 +916,27 @@
       "flag": "🇵🇹",
       "group": "K",
       "w": 1,
-      "d": 1,
+      "d": 2,
       "l": 0,
-      "matchPoints": 4,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 4
+      "matchPoints": 5,
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 10
     },
     "dr-congo": {
       "id": "dr-congo",
       "name": "DR Congo",
       "flag": "🇨🇩",
       "group": "K",
-      "w": 0,
+      "w": 1,
       "d": 1,
       "l": 1,
-      "matchPoints": 1,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 1
+      "matchPoints": 4,
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 9
     },
     "uzbekistan": {
       "id": "uzbekistan",
@@ -945,7 +945,7 @@
       "group": "K",
       "w": 0,
       "d": 0,
-      "l": 2,
+      "l": 3,
       "matchPoints": 0,
       "stage": "group",
       "stageLabel": "Group stage",
@@ -957,14 +957,14 @@
       "name": "England",
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "group": "L",
-      "w": 1,
+      "w": 2,
       "d": 1,
       "l": 0,
-      "matchPoints": 4,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 4
+      "matchPoints": 7,
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 12
     },
     "ghana": {
       "id": "ghana",
@@ -973,26 +973,26 @@
       "group": "L",
       "w": 1,
       "d": 1,
-      "l": 0,
+      "l": 1,
       "matchPoints": 4,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 4
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 9
     },
     "croatia": {
       "id": "croatia",
       "name": "Croatia",
       "flag": "🇭🇷",
       "group": "L",
-      "w": 1,
+      "w": 2,
       "d": 0,
       "l": 1,
-      "matchPoints": 3,
-      "stage": "group",
-      "stageLabel": "Group stage",
-      "stageBonus": 0,
-      "total": 3
+      "matchPoints": 6,
+      "stage": "r32",
+      "stageLabel": "Round of 32",
+      "stageBonus": 5,
+      "total": 11
     },
     "panama": {
       "id": "panama",
@@ -1001,7 +1001,7 @@
       "group": "L",
       "w": 0,
       "d": 0,
-      "l": 2,
+      "l": 3,
       "matchPoints": 0,
       "stage": "group",
       "stageLabel": "Group stage",
