@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T13:56:21.824Z",
+  "updatedAt": "2026-06-29T20:32:26.647Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -19,6 +19,69 @@
     }
   },
   "players": [
+    {
+      "id": "kris",
+      "name": "Kris",
+      "total": 42,
+      "teams": [
+        {
+          "id": "brazil",
+          "name": "Brazil",
+          "flag": "🇧🇷",
+          "group": "C",
+          "w": 3,
+          "d": 1,
+          "l": 0,
+          "matchPoints": 10,
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "total": 15
+        },
+        {
+          "id": "austria",
+          "name": "Austria",
+          "flag": "🇦🇹",
+          "group": "J",
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "matchPoints": 4,
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "total": 9
+        },
+        {
+          "id": "sweden",
+          "name": "Sweden",
+          "flag": "🇸🇪",
+          "group": "F",
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "matchPoints": 4,
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "total": 9
+        },
+        {
+          "id": "bosnia-herzegovina",
+          "name": "Bosnia & Herzegovina",
+          "flag": "🇧🇦",
+          "group": "B",
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "matchPoints": 4,
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "total": 9
+        }
+      ]
+    },
     {
       "id": "faisal",
       "name": "Faisal",
@@ -79,69 +142,6 @@
           "stageLabel": "Round of 16",
           "stageBonus": 10,
           "total": 17
-        }
-      ]
-    },
-    {
-      "id": "kris",
-      "name": "Kris",
-      "total": 39,
-      "teams": [
-        {
-          "id": "brazil",
-          "name": "Brazil",
-          "flag": "🇧🇷",
-          "group": "C",
-          "w": 2,
-          "d": 1,
-          "l": 0,
-          "matchPoints": 7,
-          "stage": "r32",
-          "stageLabel": "Round of 32",
-          "stageBonus": 5,
-          "total": 12
-        },
-        {
-          "id": "austria",
-          "name": "Austria",
-          "flag": "🇦🇹",
-          "group": "J",
-          "w": 1,
-          "d": 1,
-          "l": 1,
-          "matchPoints": 4,
-          "stage": "r32",
-          "stageLabel": "Round of 32",
-          "stageBonus": 5,
-          "total": 9
-        },
-        {
-          "id": "sweden",
-          "name": "Sweden",
-          "flag": "🇸🇪",
-          "group": "F",
-          "w": 1,
-          "d": 1,
-          "l": 1,
-          "matchPoints": 4,
-          "stage": "r32",
-          "stageLabel": "Round of 32",
-          "stageBonus": 5,
-          "total": 9
-        },
-        {
-          "id": "bosnia-herzegovina",
-          "name": "Bosnia & Herzegovina",
-          "flag": "🇧🇦",
-          "group": "B",
-          "w": 1,
-          "d": 1,
-          "l": 1,
-          "matchPoints": 4,
-          "stage": "r32",
-          "stageLabel": "Round of 32",
-          "stageBonus": 5,
-          "total": 9
         }
       ]
     },
@@ -453,14 +453,14 @@
       "name": "Brazil",
       "flag": "🇧🇷",
       "group": "C",
-      "w": 2,
+      "w": 3,
       "d": 1,
       "l": 0,
-      "matchPoints": 7,
+      "matchPoints": 10,
       "stage": "r32",
       "stageLabel": "Round of 32",
       "stageBonus": 5,
-      "total": 12
+      "total": 15
     },
     "morocco": {
       "id": "morocco",
@@ -637,7 +637,7 @@
       "group": "F",
       "w": 1,
       "d": 2,
-      "l": 0,
+      "l": 1,
       "matchPoints": 5,
       "stage": "r32",
       "stageLabel": "Round of 32",
