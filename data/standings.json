@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T20:38:36.956Z",
+  "updatedAt": "2026-06-29T13:56:21.824Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -19,6 +19,69 @@
     }
   },
   "players": [
+    {
+      "id": "faisal",
+      "name": "Faisal",
+      "total": 41,
+      "teams": [
+        {
+          "id": "netherlands",
+          "name": "Netherlands",
+          "flag": "🇳🇱",
+          "group": "F",
+          "w": 2,
+          "d": 1,
+          "l": 0,
+          "matchPoints": 7,
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "total": 12
+        },
+        {
+          "id": "south-korea",
+          "name": "South Korea",
+          "flag": "🇰🇷",
+          "group": "A",
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "matchPoints": 3,
+          "stage": "group",
+          "stageLabel": "Group stage",
+          "stageBonus": 0,
+          "total": 3
+        },
+        {
+          "id": "dr-congo",
+          "name": "DR Congo",
+          "flag": "🇨🇩",
+          "group": "K",
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "matchPoints": 4,
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "total": 9
+        },
+        {
+          "id": "canada",
+          "name": "Canada",
+          "flag": "🇨🇦",
+          "group": "B",
+          "w": 2,
+          "d": 1,
+          "l": 1,
+          "matchPoints": 7,
+          "stage": "r16",
+          "stageLabel": "Round of 16",
+          "stageBonus": 10,
+          "total": 17
+        }
+      ]
+    },
     {
       "id": "kris",
       "name": "Kris",
@@ -122,7 +185,7 @@
           "group": "A",
           "w": 1,
           "d": 1,
-          "l": 1,
+          "l": 2,
           "matchPoints": 4,
           "stage": "r32",
           "stageLabel": "Round of 32",
@@ -205,69 +268,6 @@
           "stageLabel": "Round of 32",
           "stageBonus": 5,
           "total": 11
-        }
-      ]
-    },
-    {
-      "id": "faisal",
-      "name": "Faisal",
-      "total": 33,
-      "teams": [
-        {
-          "id": "netherlands",
-          "name": "Netherlands",
-          "flag": "🇳🇱",
-          "group": "F",
-          "w": 2,
-          "d": 1,
-          "l": 0,
-          "matchPoints": 7,
-          "stage": "r32",
-          "stageLabel": "Round of 32",
-          "stageBonus": 5,
-          "total": 12
-        },
-        {
-          "id": "south-korea",
-          "name": "South Korea",
-          "flag": "🇰🇷",
-          "group": "A",
-          "w": 1,
-          "d": 0,
-          "l": 2,
-          "matchPoints": 3,
-          "stage": "group",
-          "stageLabel": "Group stage",
-          "stageBonus": 0,
-          "total": 3
-        },
-        {
-          "id": "dr-congo",
-          "name": "DR Congo",
-          "flag": "🇨🇩",
-          "group": "K",
-          "w": 1,
-          "d": 1,
-          "l": 1,
-          "matchPoints": 4,
-          "stage": "r32",
-          "stageLabel": "Round of 32",
-          "stageBonus": 5,
-          "total": 9
-        },
-        {
-          "id": "canada",
-          "name": "Canada",
-          "flag": "🇨🇦",
-          "group": "B",
-          "w": 1,
-          "d": 1,
-          "l": 1,
-          "matchPoints": 4,
-          "stage": "r32",
-          "stageLabel": "Round of 32",
-          "stageBonus": 5,
-          "total": 9
         }
       ]
     },
@@ -385,7 +385,7 @@
       "group": "A",
       "w": 1,
       "d": 1,
-      "l": 1,
+      "l": 2,
       "matchPoints": 4,
       "stage": "r32",
       "stageLabel": "Round of 32",
@@ -397,14 +397,14 @@
       "name": "Canada",
       "flag": "🇨🇦",
       "group": "B",
-      "w": 1,
+      "w": 2,
       "d": 1,
       "l": 1,
-      "matchPoints": 4,
-      "stage": "r32",
-      "stageLabel": "Round of 32",
-      "stageBonus": 5,
-      "total": 9
+      "matchPoints": 7,
+      "stage": "r16",
+      "stageLabel": "Round of 16",
+      "stageBonus": 10,
+      "total": 17
     },
     "switzerland": {
       "id": "switzerland",
