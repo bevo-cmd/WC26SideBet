@@ -26,6 +26,16 @@
   .tagline{color:var(--muted);max-width:520px;margin:12px auto 0;font-size:15px}
   .prize{display:inline-flex;gap:8px;align-items:center;margin-top:16px;background:linear-gradient(180deg,#22182f,#1a1426);border:1px solid var(--line);border-radius:999px;padding:8px 16px;font-size:13px}
   .prize b{color:var(--gold)}
+  .prizes{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:18px}
+  .ppill{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:10px 16px;text-align:center;min-width:150px}
+  .ppill .amt{font-family:Anton;font-size:22px;color:var(--gold);line-height:1}
+  .ppill .lbl{font-size:11px;color:var(--muted);margin-top:4px;letter-spacing:.02em}
+  .ppill .win{font-size:12px;font-weight:700;color:var(--text);margin-top:5px;display:flex;gap:5px;align-items:center;justify-content:center}
+  .ppill.locked{border-color:rgba(255,197,61,.45)}
+  .ppill .tbd{font-size:11px;color:var(--muted);font-weight:500;margin-top:5px}
+  .toggle{display:inline-flex;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:3px}
+  .toggle button{border:0;background:transparent;color:var(--muted);font-family:Inter;font-weight:700;font-size:12px;padding:7px 14px;border-radius:999px;cursor:pointer}
+  .toggle button.on{background:var(--panel-2);color:var(--text)}
   .lb-head{display:flex;align-items:baseline;justify-content:space-between;margin:30px 2px 12px}
   .lb-head h2{font-family:Anton;font-weight:400;text-transform:uppercase;font-size:22px;margin:0}
   .lb-head .meta{color:var(--muted);font-size:12px;text-align:right}
@@ -71,14 +81,20 @@
     <p class="eyebrow">World Cup 2026 Sweepstakes · 🇨🇦 🇲🇽 🇺🇸</p>
     <h1>Who's winning<br>the <span class="pool">pool</span></h1>
     <p class="tagline">Every player scored on results <b>plus</b> how far their teams go. Updated automatically after each match.</p>
-    <div class="prize">🏆 Highest total at the final takes the <b>prize pool</b></div>
+    <div class="prizes" id="prizes"></div>
   </div>
 </header>
 
 <div class="wrap">
   <div class="lb-head">
     <h2>Full leaderboard</h2>
-    <span class="meta" id="meta">Loading…</span>
+    <div style="display:flex;align-items:center;gap:10px">
+      <div class="toggle" id="toggle">
+        <button data-mode="overall" class="on">Overall</button>
+        <button data-mode="group">Group stage</button>
+      </div>
+      <span class="meta" id="meta">Loading…</span>
+    </div>
   </div>
   <div id="board"><div class="state">Loading the latest scores…</div></div>
 
@@ -117,31 +133,58 @@ function timeAgo(iso){
   const h=Math.round(mins/60); if(h<24)return h+' hr ago';
   return d.toLocaleDateString(undefined,{day:'numeric',month:'short'});
 }
-async function load(){
-  let data;
-  try{
-    const r=await fetch('data/standings.json?'+Date.now());
-    if(!r.ok) throw new Error(r.status);
-    data=await r.json();
-  }catch(e){
-    document.getElementById('board').innerHTML='<div class="state">Couldn\'t load the latest standings yet. If you just published, give the first update job a minute to run.</div>';
-    document.getElementById('meta').textContent='';
-    return;
+let DATA=null, MODE='overall';
+
+function renderPrizes(){
+  const overall=[...DATA.players].sort((a,b)=>b.total-a.total);
+  const group=[...DATA.players].sort((a,b)=>b.groupTotal-a.groupTotal);
+  const gW=group[0], first=overall[0], second=overall[1];
+  const p=DATA.prizes||{groupWinner:30,second:50,first:100};
+  const gLocked=!!DATA.groupStageComplete;
+  function pill(amt,lbl,name,pts,locked){
+    const win = pts>0 ? `<div class="win">👑 ${esc(name)} · ${pts}</div>` : `<div class="tbd">to be decided</div>`;
+    return `<div class="ppill ${locked?'locked':''}">
+      <div class="amt">RM${amt}</div>
+      <div class="lbl">${lbl}</div>
+      ${win}
+      ${locked?'<div class="tbd">🔒 locked in</div>':(pts>0?'<div class="tbd">provisional</div>':'')}
+    </div>`;
   }
-  const top=data.players[0]?data.players[0].total:0;
-  document.getElementById('meta').innerHTML=`${data.players.length} players · updated ${timeAgo(data.updatedAt)}`;
-  document.getElementById('board').innerHTML=data.players.map((p,i)=>{
-    const leader=p.total===top&&p.total>0;
+  document.getElementById('prizes').innerHTML =
+    pill(p.groupWinner,'Group-stage winner', gW?gW.name:'', gW?gW.groupTotal:0, gLocked) +
+    pill(p.first,'Highest overall', first?first.name:'', first?first.total:0, false) +
+    pill(p.second,'2nd highest overall', second?second.name:'', second?second.total:0, false);
+}
+
+function renderBoard(){
+  const isGroup = MODE==='group';
+  const players=[...DATA.players].sort((a,b)=> isGroup ? (b.groupTotal-a.groupTotal||a.name.localeCompare(b.name)) : (b.total-a.total||a.name.localeCompare(b.name)));
+  const valOf=p=> isGroup ? p.groupTotal : p.total;
+  const top=players[0]?valOf(players[0]):0;
+  document.getElementById('board').innerHTML=players.map((p,i)=>{
+    const val=valOf(p);
+    const leader=val===top&&val>0;
     const flags=p.teams.map(t=>`<span title="${esc(t.name)}">${t.flag}</span>`).join(' ');
     const rows=p.teams.map(t=>{
-      const live=t.stageBonus>0;
+      if(isGroup){
+        const adv=t.advanced?5:0;
+        return `<tr>
+          <td>${t.flag} ${esc(t.name)}<span class="pill ${t.advanced?'live':''}">${t.advanced?'advanced':'out'}</span></td>
+          <td class="num">${t.groupMatchPoints}</td>
+          <td class="num">${adv}</td>
+          <td class="num">${t.groupStagePoints}</td></tr>`;
+      }
       return `<tr>
-        <td>${t.flag} ${esc(t.name)}<span class="pill ${live?'live':''}">${SHORT[t.stage]||t.stage}</span></td>
+        <td>${t.flag} ${esc(t.name)}<span class="pill ${t.stageBonus>0?'live':''}">${SHORT[t.stage]||t.stage}</span></td>
         <td class="num">${t.w}-${t.d}-${t.l}</td>
         <td class="num">${t.matchPoints}</td>
         <td class="num">${t.stageBonus}</td>
         <td class="num">${t.total}</td></tr>`;
     }).join('');
+    const head = isGroup
+      ? `<thead><tr><th>Team</th><th>Group pts</th><th>Advance</th><th>Total</th></tr></thead>`
+      : `<thead><tr><th>Team</th><th>W-D-L</th><th>Match</th><th>Bonus</th><th>Pts</th></tr></thead>`;
+    const subCols = isGroup ? '<td></td><td></td>' : '<td></td><td></td><td></td>';
     return `<div class="row ${leader?'leader':''}">
       <div class="row-main" onclick="this.parentElement.classList.toggle('open')">
         <div class="rank num">${i+1}</div>
@@ -150,19 +193,42 @@ async function load(){
           <div class="flags">${flags}</div>
         </div>
         <div style="display:flex;align-items:center;gap:6px">
-          <div class="total num">${p.total}<small>pts</small></div>
+          <div class="total num">${val}<small>pts</small></div>
           <span class="chev">▾</span>
         </div>
       </div>
       <div class="breakdown">
         <table class="bd">
-          <thead><tr><th>Team</th><th>W-D-L</th><th>Match</th><th>Bonus</th><th>Pts</th></tr></thead>
-          <tbody>${rows}<tr class="sub"><td>Total</td><td></td><td></td><td></td><td class="num">${p.total}</td></tr></tbody>
+          ${head}
+          <tbody>${rows}<tr class="sub"><td>Total</td>${subCols}<td class="num">${val}</td></tr></tbody>
         </table>
       </div>
     </div>`;
   }).join('');
 }
+
+async function load(){
+  try{
+    const r=await fetch('data/standings.json?'+Date.now());
+    if(!r.ok) throw new Error(r.status);
+    DATA=await r.json();
+  }catch(e){
+    document.getElementById('board').innerHTML='<div class="state">Couldn\'t load the latest standings yet. If you just published, give the first update job a minute to run.</div>';
+    document.getElementById('meta').textContent='';
+    return;
+  }
+  const gsMsg = DATA.groupStageComplete ? 'group stage complete' : 'group stage in progress';
+  document.getElementById('meta').innerHTML=`${DATA.players.length} players · ${gsMsg} · updated ${timeAgo(DATA.updatedAt)}`;
+  renderPrizes();
+  renderBoard();
+}
+
+document.getElementById('toggle').addEventListener('click',function(ev){
+  const b=ev.target.closest('button'); if(!b) return;
+  MODE=b.getAttribute('data-mode');
+  this.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));
+  if(DATA) renderBoard();
+});
 load();
 </script>
 </body>
