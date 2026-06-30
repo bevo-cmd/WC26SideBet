@@ -147,7 +147,7 @@ async function main() {
     const stage = stageFor(s);
     const bonus = STAGE_BONUS[stage];
     const advanced = stage !== "group";
-    const groupStagePoints = s.groupMatchPoints + (advanced ? STAGE_BONUS.r32 : 0);
+    const groupStagePoints = s.groupMatchPoints; // group match points only — no knockout/advance bonus
     teamOut[t.id] = {
       id: t.id, name: t.name, flag: t.flag, group: t.group,
       w: s.w, d: s.d, l: s.l, matchPoints: s.matchPoints,
