@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T02:07:20.098Z",
+  "updatedAt": "2026-06-30T02:08:02.257Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -30,7 +30,7 @@
       "id": "kris",
       "name": "Kris",
       "total": 42,
-      "groupTotal": 39,
+      "groupTotal": 19,
       "teams": [
         {
           "id": "brazil",
@@ -46,7 +46,7 @@
           "stageBonus": 5,
           "groupMatchPoints": 7,
           "advanced": true,
-          "groupStagePoints": 12,
+          "groupStagePoints": 7,
           "total": 15
         },
         {
@@ -63,7 +63,7 @@
           "stageBonus": 5,
           "groupMatchPoints": 4,
           "advanced": true,
-          "groupStagePoints": 9,
+          "groupStagePoints": 4,
           "total": 9
         },
         {
@@ -80,7 +80,7 @@
           "stageBonus": 5,
           "groupMatchPoints": 4,
           "advanced": true,
-          "groupStagePoints": 9,
+          "groupStagePoints": 4,
           "total": 9
         },
         {
@@ -97,7 +97,7 @@
           "stageBonus": 5,
           "groupMatchPoints": 4,
           "advanced": true,
-          "groupStagePoints": 9,
+          "groupStagePoints": 4,
           "total": 9
         }
       ]
@@ -106,7 +106,7 @@
       "id": "faisal",
       "name": "Faisal",
       "total": 41,
-      "groupTotal": 33,
+      "groupTotal": 18,
       "teams": [
         {
           "id": "netherlands",
@@ -122,7 +122,7 @@
           "stageBonus": 5,
           "groupMatchPoints": 7,
           "advanced": true,
-          "groupStagePoints": 12,
+          "groupStagePoints": 7,
           "total": 12
         },
         {
@@ -156,7 +156,7 @@
           "stageBonus": 5,
           "groupMatchPoints": 4,
           "advanced": true,
-          "groupStagePoints": 9,
+          "groupStagePoints": 4,
           "total": 9
         },
         {
@@ -173,7 +173,7 @@
           "stageBonus": 10,
           "groupMatchPoints": 4,
           "advanced": true,
-          "groupStagePoints": 9,
+          "groupStagePoints": 4,
           "total": 17
         }
       ]
@@ -182,7 +182,7 @@
       "id": "bev",
       "name": "Bev",
       "total": 37,
-      "groupTotal": 37,
+      "groupTotal": 22,
       "teams": [
         {
           "id": "argentina",
@@ -198,7 +198,7 @@
           "stageBonus": 5,
           "groupMatchPoints": 9,
           "advanced": true,
-          "groupStagePoints": 14,
+          "groupStagePoints": 9,
           "total": 14
         },
         {
@@ -232,7 +232,7 @@
           "stageBonus": 5,
           "groupMatchPoints": 4,
           "advanced": true,
-          "groupStagePoints": 9,
+          "groupStagePoints": 4,
           "total": 9
         },
         {
@@ -249,7 +249,7 @@
           "stageBonus": 5,
           "groupMatchPoints": 6,
           "advanced": true,
-          "groupStagePoints": 11,
+          "groupStagePoints": 6,
           "total": 11
         }
       ]
@@ -258,7 +258,7 @@
       "id": "sa",
       "name": "Sa",
       "total": 37,
-      "groupTotal": 37,
+      "groupTotal": 22,
       "teams": [
         {
           "id": "england",
@@ -274,7 +274,7 @@
           "stageBonus": 5,
           "groupMatchPoints": 7,
           "advanced": true,
-          "groupStagePoints": 12,
+          "groupStagePoints": 7,
           "total": 12
         },
         {
@@ -291,7 +291,7 @@
           "stageBonus": 5,
           "groupMatchPoints": 6,
           "advanced": true,
-          "groupStagePoints": 11,
+          "groupStagePoints": 6,
           "total": 11
         },
         {
@@ -325,7 +325,7 @@
           "stageBonus": 5,
           "groupMatchPoints": 6,
           "advanced": true,
-          "groupStagePoints": 11,
+          "groupStagePoints": 6,
           "total": 11
         }
       ]
@@ -334,7 +334,7 @@
       "id": "brian",
       "name": "Brian",
       "total": 16,
-      "groupTotal": 16,
+      "groupTotal": 11,
       "teams": [
         {
           "id": "spain",
@@ -350,7 +350,7 @@
           "stageBonus": 5,
           "groupMatchPoints": 7,
           "advanced": true,
-          "groupStagePoints": 12,
+          "groupStagePoints": 7,
           "total": 12
         },
         {
@@ -422,7 +422,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 9,
       "advanced": true,
-      "groupStagePoints": 14,
+      "groupStagePoints": 9,
       "total": 14
     },
     "south-korea": {
@@ -473,7 +473,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 4,
       "advanced": true,
-      "groupStagePoints": 9,
+      "groupStagePoints": 4,
       "total": 9
     },
     "canada": {
@@ -490,7 +490,7 @@
       "stageBonus": 10,
       "groupMatchPoints": 4,
       "advanced": true,
-      "groupStagePoints": 9,
+      "groupStagePoints": 4,
       "total": 17
     },
     "switzerland": {
@@ -507,7 +507,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 7,
       "advanced": true,
-      "groupStagePoints": 12,
+      "groupStagePoints": 7,
       "total": 12
     },
     "bosnia-herzegovina": {
@@ -524,7 +524,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 4,
       "advanced": true,
-      "groupStagePoints": 9,
+      "groupStagePoints": 4,
       "total": 9
     },
     "qatar": {
@@ -558,7 +558,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 7,
       "advanced": true,
-      "groupStagePoints": 12,
+      "groupStagePoints": 7,
       "total": 15
     },
     "morocco": {
@@ -575,7 +575,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 7,
       "advanced": true,
-      "groupStagePoints": 12,
+      "groupStagePoints": 7,
       "total": 12
     },
     "scotland": {
@@ -626,7 +626,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 6,
       "advanced": true,
-      "groupStagePoints": 11,
+      "groupStagePoints": 6,
       "total": 11
     },
     "australia": {
@@ -643,7 +643,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 4,
       "advanced": true,
-      "groupStagePoints": 9,
+      "groupStagePoints": 4,
       "total": 9
     },
     "paraguay": {
@@ -660,7 +660,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 4,
       "advanced": true,
-      "groupStagePoints": 9,
+      "groupStagePoints": 4,
       "total": 12
     },
     "turkiye": {
@@ -694,7 +694,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 6,
       "advanced": true,
-      "groupStagePoints": 11,
+      "groupStagePoints": 6,
       "total": 11
     },
     "cote-divoire": {
@@ -711,7 +711,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 6,
       "advanced": true,
-      "groupStagePoints": 11,
+      "groupStagePoints": 6,
       "total": 11
     },
     "ecuador": {
@@ -728,7 +728,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 4,
       "advanced": true,
-      "groupStagePoints": 9,
+      "groupStagePoints": 4,
       "total": 9
     },
     "curacao": {
@@ -762,7 +762,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 7,
       "advanced": true,
-      "groupStagePoints": 12,
+      "groupStagePoints": 7,
       "total": 12
     },
     "japan": {
@@ -779,7 +779,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 5,
       "advanced": true,
-      "groupStagePoints": 10,
+      "groupStagePoints": 5,
       "total": 10
     },
     "sweden": {
@@ -796,7 +796,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 4,
       "advanced": true,
-      "groupStagePoints": 9,
+      "groupStagePoints": 4,
       "total": 9
     },
     "tunisia": {
@@ -830,7 +830,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 5,
       "advanced": true,
-      "groupStagePoints": 10,
+      "groupStagePoints": 5,
       "total": 10
     },
     "iran": {
@@ -864,7 +864,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 5,
       "advanced": true,
-      "groupStagePoints": 10,
+      "groupStagePoints": 5,
       "total": 10
     },
     "new-zealand": {
@@ -898,7 +898,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 7,
       "advanced": true,
-      "groupStagePoints": 12,
+      "groupStagePoints": 7,
       "total": 12
     },
     "uruguay": {
@@ -932,7 +932,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 3,
       "advanced": true,
-      "groupStagePoints": 8,
+      "groupStagePoints": 3,
       "total": 8
     },
     "saudi-arabia": {
@@ -966,7 +966,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 9,
       "advanced": true,
-      "groupStagePoints": 14,
+      "groupStagePoints": 9,
       "total": 14
     },
     "norway": {
@@ -983,7 +983,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 6,
       "advanced": true,
-      "groupStagePoints": 11,
+      "groupStagePoints": 6,
       "total": 11
     },
     "senegal": {
@@ -1000,7 +1000,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 3,
       "advanced": true,
-      "groupStagePoints": 8,
+      "groupStagePoints": 3,
       "total": 8
     },
     "iraq": {
@@ -1034,7 +1034,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 9,
       "advanced": true,
-      "groupStagePoints": 14,
+      "groupStagePoints": 9,
       "total": 14
     },
     "austria": {
@@ -1051,7 +1051,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 4,
       "advanced": true,
-      "groupStagePoints": 9,
+      "groupStagePoints": 4,
       "total": 9
     },
     "algeria": {
@@ -1068,7 +1068,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 4,
       "advanced": true,
-      "groupStagePoints": 9,
+      "groupStagePoints": 4,
       "total": 9
     },
     "jordan": {
@@ -1102,7 +1102,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 7,
       "advanced": true,
-      "groupStagePoints": 12,
+      "groupStagePoints": 7,
       "total": 12
     },
     "portugal": {
@@ -1119,7 +1119,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 5,
       "advanced": true,
-      "groupStagePoints": 10,
+      "groupStagePoints": 5,
       "total": 10
     },
     "dr-congo": {
@@ -1136,7 +1136,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 4,
       "advanced": true,
-      "groupStagePoints": 9,
+      "groupStagePoints": 4,
       "total": 9
     },
     "uzbekistan": {
@@ -1170,7 +1170,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 7,
       "advanced": true,
-      "groupStagePoints": 12,
+      "groupStagePoints": 7,
       "total": 12
     },
     "ghana": {
@@ -1187,7 +1187,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 4,
       "advanced": true,
-      "groupStagePoints": 9,
+      "groupStagePoints": 4,
       "total": 9
     },
     "croatia": {
@@ -1204,7 +1204,7 @@
       "stageBonus": 5,
       "groupMatchPoints": 6,
       "advanced": true,
-      "groupStagePoints": 11,
+      "groupStagePoints": 6,
       "total": 11
     },
     "panama": {
