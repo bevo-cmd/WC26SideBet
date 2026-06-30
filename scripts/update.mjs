@@ -81,8 +81,9 @@ async function main() {
   // Per-team accumulator
   const stat = {};
   for (const t of teams) {
-    stat[t.id] = { w: 0, d: 0, l: 0, matchPoints: 0, rounds: new Set(), finalRes: null, thirdRes: null };
+    stat[t.id] = { w: 0, d: 0, l: 0, matchPoints: 0, groupMatchPoints: 0, rounds: new Set(), finalRes: null, thirdRes: null };
   }
+  let groupMatchesPlayed = 0;
 
   for (const m of matches) {
     const rk = roundKey(m.round);
@@ -99,8 +100,9 @@ async function main() {
 
     const o1 = outcome(m.score, 0, ko);
     const o2 = outcome(m.score, 1, ko);
-    if (o1 && id1) applyResult(stat[id1], o1);
-    if (o2 && id2) applyResult(stat[id2], o2);
+    if (o1 && id1) applyResult(stat[id1], o1, !ko);
+    if (o2 && id2) applyResult(stat[id2], o2, !ko);
+    if (!ko && m.score && Array.isArray(m.score.ft)) groupMatchesPlayed++;
 
     // Capture final / third-place outcomes for placement
     if (rk === "final") {
@@ -113,9 +115,9 @@ async function main() {
     }
   }
 
-  function applyResult(s, o) {
-    if (o === "win") { s.w++; s.matchPoints += 3; }
-    else if (o === "draw") { s.d++; s.matchPoints += 1; }
+  function applyResult(s, o, isGroup) {
+    if (o === "win") { s.w++; s.matchPoints += 3; if (isGroup) s.groupMatchPoints += 3; }
+    else if (o === "draw") { s.d++; s.matchPoints += 1; if (isGroup) s.groupMatchPoints += 1; }
     else if (o === "loss") { s.l++; }
   }
 
@@ -144,10 +146,13 @@ async function main() {
     const s = stat[t.id];
     const stage = stageFor(s);
     const bonus = STAGE_BONUS[stage];
+    const advanced = stage !== "group";
+    const groupStagePoints = s.groupMatchPoints + (advanced ? STAGE_BONUS.r32 : 0);
     teamOut[t.id] = {
       id: t.id, name: t.name, flag: t.flag, group: t.group,
       w: s.w, d: s.d, l: s.l, matchPoints: s.matchPoints,
       stage, stageLabel: STAGE_LABEL[stage], stageBonus: bonus,
+      groupMatchPoints: s.groupMatchPoints, advanced, groupStagePoints,
       total: s.matchPoints + bonus,
     };
   }
@@ -157,10 +162,11 @@ async function main() {
   const players = rosters.players.map((p) => {
     const teamsArr = p.teams.map((tid) => {
       owned.add(tid);
-      return teamOut[tid] || { id: tid, name: tid, flag: "🏳️", group: "?", w: 0, d: 0, l: 0, matchPoints: 0, stage: "group", stageLabel: "Group stage", stageBonus: 0, total: 0 };
+      return teamOut[tid] || { id: tid, name: tid, flag: "🏳️", group: "?", w: 0, d: 0, l: 0, matchPoints: 0, stage: "group", stageLabel: "Group stage", stageBonus: 0, groupMatchPoints: 0, advanced: false, groupStagePoints: 0, total: 0 };
     });
     const total = teamsArr.reduce((sum, t) => sum + t.total, 0);
-    return { id: p.id, name: p.name, total, teams: teamsArr };
+    const groupTotal = teamsArr.reduce((sum, t) => sum + t.groupStagePoints, 0);
+    return { id: p.id, name: p.name, total, groupTotal, teams: teamsArr };
   });
   players.sort((a, b) => b.total - a.total || a.name.localeCompare(b.name));
 
@@ -171,6 +177,9 @@ async function main() {
     feedUpdatedAt: feed.updatedAt || null,
     source: "openfootball/worldcup.json (2026)",
     scoring: { win: 3, draw: 1, loss: 0, stageBonus: STAGE_BONUS },
+    groupStageComplete: groupMatchesPlayed >= 72,
+    groupMatchesPlayed,
+    prizes: { groupWinner: 30, second: 50, first: 100 },
     players,
     teams: teamOut,
     unassigned,
