@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T20:32:26.647Z",
+  "updatedAt": "2026-06-30T01:52:25.959Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -537,14 +537,14 @@
       "name": "Paraguay",
       "flag": "🇵🇾",
       "group": "D",
-      "w": 1,
+      "w": 2,
       "d": 1,
       "l": 1,
-      "matchPoints": 4,
+      "matchPoints": 7,
       "stage": "r32",
       "stageLabel": "Round of 32",
       "stageBonus": 5,
-      "total": 9
+      "total": 12
     },
     "turkiye": {
       "id": "turkiye",
@@ -567,7 +567,7 @@
       "group": "E",
       "w": 2,
       "d": 0,
-      "l": 1,
+      "l": 2,
       "matchPoints": 6,
       "stage": "r32",
       "stageLabel": "Round of 32",
