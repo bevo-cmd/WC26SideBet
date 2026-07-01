@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T23:54:20.379Z",
+  "updatedAt": "2026-07-01T11:41:44.083Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -29,7 +29,7 @@
     {
       "id": "kris",
       "name": "Kris",
-      "total": 42,
+      "total": 47,
       "groupTotal": 19,
       "teams": [
         {
@@ -41,13 +41,13 @@
           "d": 1,
           "l": 0,
           "matchPoints": 10,
-          "stage": "r32",
-          "stageLabel": "Round of 32",
-          "stageBonus": 5,
+          "stage": "r16",
+          "stageLabel": "Round of 16",
+          "stageBonus": 10,
           "groupMatchPoints": 7,
           "advanced": true,
           "groupStagePoints": 7,
-          "total": 15
+          "total": 20
         },
         {
           "id": "austria",
@@ -99,6 +99,82 @@
           "advanced": true,
           "groupStagePoints": 4,
           "total": 9
+        }
+      ]
+    },
+    {
+      "id": "sa",
+      "name": "Sa",
+      "total": 45,
+      "groupTotal": 22,
+      "teams": [
+        {
+          "id": "england",
+          "name": "England",
+          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "group": "L",
+          "w": 2,
+          "d": 1,
+          "l": 0,
+          "matchPoints": 7,
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "groupMatchPoints": 7,
+          "advanced": true,
+          "groupStagePoints": 7,
+          "total": 12
+        },
+        {
+          "id": "united-states",
+          "name": "United States",
+          "flag": "🇺🇸",
+          "group": "D",
+          "w": 2,
+          "d": 0,
+          "l": 1,
+          "matchPoints": 6,
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "groupMatchPoints": 6,
+          "advanced": true,
+          "groupStagePoints": 6,
+          "total": 11
+        },
+        {
+          "id": "scotland",
+          "name": "Scotland",
+          "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+          "group": "C",
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "matchPoints": 3,
+          "stage": "group",
+          "stageLabel": "Group stage",
+          "stageBonus": 0,
+          "groupMatchPoints": 3,
+          "advanced": false,
+          "groupStagePoints": 3,
+          "total": 3
+        },
+        {
+          "id": "norway",
+          "name": "Norway",
+          "flag": "🇳🇴",
+          "group": "I",
+          "w": 3,
+          "d": 0,
+          "l": 1,
+          "matchPoints": 9,
+          "stage": "r16",
+          "stageLabel": "Round of 16",
+          "stageBonus": 10,
+          "groupMatchPoints": 6,
+          "advanced": true,
+          "groupStagePoints": 6,
+          "total": 19
         }
       ]
     },
@@ -175,82 +251,6 @@
           "advanced": true,
           "groupStagePoints": 4,
           "total": 17
-        }
-      ]
-    },
-    {
-      "id": "sa",
-      "name": "Sa",
-      "total": 40,
-      "groupTotal": 22,
-      "teams": [
-        {
-          "id": "england",
-          "name": "England",
-          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-          "group": "L",
-          "w": 2,
-          "d": 1,
-          "l": 0,
-          "matchPoints": 7,
-          "stage": "r32",
-          "stageLabel": "Round of 32",
-          "stageBonus": 5,
-          "groupMatchPoints": 7,
-          "advanced": true,
-          "groupStagePoints": 7,
-          "total": 12
-        },
-        {
-          "id": "united-states",
-          "name": "United States",
-          "flag": "🇺🇸",
-          "group": "D",
-          "w": 2,
-          "d": 0,
-          "l": 1,
-          "matchPoints": 6,
-          "stage": "r32",
-          "stageLabel": "Round of 32",
-          "stageBonus": 5,
-          "groupMatchPoints": 6,
-          "advanced": true,
-          "groupStagePoints": 6,
-          "total": 11
-        },
-        {
-          "id": "scotland",
-          "name": "Scotland",
-          "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-          "group": "C",
-          "w": 1,
-          "d": 0,
-          "l": 2,
-          "matchPoints": 3,
-          "stage": "group",
-          "stageLabel": "Group stage",
-          "stageBonus": 0,
-          "groupMatchPoints": 3,
-          "advanced": false,
-          "groupStagePoints": 3,
-          "total": 3
-        },
-        {
-          "id": "norway",
-          "name": "Norway",
-          "flag": "🇳🇴",
-          "group": "I",
-          "w": 3,
-          "d": 0,
-          "l": 1,
-          "matchPoints": 9,
-          "stage": "r32",
-          "stageLabel": "Round of 32",
-          "stageBonus": 5,
-          "groupMatchPoints": 6,
-          "advanced": true,
-          "groupStagePoints": 6,
-          "total": 14
         }
       ]
     },
@@ -413,17 +413,17 @@
       "name": "Mexico",
       "flag": "🇲🇽",
       "group": "A",
-      "w": 3,
+      "w": 4,
       "d": 0,
       "l": 0,
-      "matchPoints": 9,
+      "matchPoints": 12,
       "stage": "r32",
       "stageLabel": "Round of 32",
       "stageBonus": 5,
       "groupMatchPoints": 9,
       "advanced": true,
       "groupStagePoints": 9,
-      "total": 14
+      "total": 17
     },
     "south-korea": {
       "id": "south-korea",
@@ -553,13 +553,13 @@
       "d": 1,
       "l": 0,
       "matchPoints": 10,
-      "stage": "r32",
-      "stageLabel": "Round of 32",
-      "stageBonus": 5,
+      "stage": "r16",
+      "stageLabel": "Round of 16",
+      "stageBonus": 10,
       "groupMatchPoints": 7,
       "advanced": true,
       "groupStagePoints": 7,
-      "total": 15
+      "total": 20
     },
     "morocco": {
       "id": "morocco",
@@ -570,13 +570,13 @@
       "d": 1,
       "l": 0,
       "matchPoints": 10,
-      "stage": "r32",
-      "stageLabel": "Round of 32",
-      "stageBonus": 5,
+      "stage": "r16",
+      "stageLabel": "Round of 16",
+      "stageBonus": 10,
       "groupMatchPoints": 7,
       "advanced": true,
       "groupStagePoints": 7,
-      "total": 15
+      "total": 20
     },
     "scotland": {
       "id": "scotland",
@@ -655,13 +655,13 @@
       "d": 1,
       "l": 1,
       "matchPoints": 7,
-      "stage": "r32",
-      "stageLabel": "Round of 32",
-      "stageBonus": 5,
+      "stage": "r16",
+      "stageLabel": "Round of 16",
+      "stageBonus": 10,
       "groupMatchPoints": 4,
       "advanced": true,
       "groupStagePoints": 4,
-      "total": 12
+      "total": 17
     },
     "turkiye": {
       "id": "turkiye",
@@ -721,7 +721,7 @@
       "group": "E",
       "w": 1,
       "d": 1,
-      "l": 1,
+      "l": 2,
       "matchPoints": 4,
       "stage": "r32",
       "stageLabel": "Round of 32",
@@ -961,13 +961,13 @@
       "d": 0,
       "l": 0,
       "matchPoints": 12,
-      "stage": "r32",
-      "stageLabel": "Round of 32",
-      "stageBonus": 5,
+      "stage": "r16",
+      "stageLabel": "Round of 16",
+      "stageBonus": 10,
       "groupMatchPoints": 9,
       "advanced": true,
       "groupStagePoints": 9,
-      "total": 17
+      "total": 22
     },
     "norway": {
       "id": "norway",
@@ -978,13 +978,13 @@
       "d": 0,
       "l": 1,
       "matchPoints": 9,
-      "stage": "r32",
-      "stageLabel": "Round of 32",
-      "stageBonus": 5,
+      "stage": "r16",
+      "stageLabel": "Round of 16",
+      "stageBonus": 10,
       "groupMatchPoints": 6,
       "advanced": true,
       "groupStagePoints": 6,
-      "total": 14
+      "total": 19
     },
     "senegal": {
       "id": "senegal",
