@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T18:33:06.884Z",
+  "updatedAt": "2026-07-01T23:59:18.760Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -855,17 +855,17 @@
       "name": "Belgium",
       "flag": "🇧🇪",
       "group": "G",
-      "w": 1,
+      "w": 2,
       "d": 2,
       "l": 0,
-      "matchPoints": 5,
+      "matchPoints": 8,
       "stage": "r32",
       "stageLabel": "Round of 32",
       "stageBonus": 5,
       "groupMatchPoints": 5,
       "advanced": true,
       "groupStagePoints": 5,
-      "total": 10
+      "total": 13
     },
     "new-zealand": {
       "id": "new-zealand",
@@ -993,7 +993,7 @@
       "group": "I",
       "w": 1,
       "d": 0,
-      "l": 2,
+      "l": 3,
       "matchPoints": 3,
       "stage": "r32",
       "stageLabel": "Round of 32",
