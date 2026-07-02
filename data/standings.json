@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T18:17:41.081Z",
+  "updatedAt": "2026-07-02T23:44:46.399Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -132,7 +132,7 @@
           "group": "J",
           "w": 1,
           "d": 1,
-          "l": 1,
+          "l": 2,
           "matchPoints": 4,
           "stage": "r32",
           "stageLabel": "Round of 32",
@@ -333,7 +333,7 @@
     {
       "id": "brian",
       "name": "Brian",
-      "total": 16,
+      "total": 19,
       "groupTotal": 11,
       "teams": [
         {
@@ -341,17 +341,17 @@
           "name": "Spain",
           "flag": "🇪🇸",
           "group": "H",
-          "w": 2,
+          "w": 3,
           "d": 1,
           "l": 0,
-          "matchPoints": 7,
+          "matchPoints": 10,
           "stage": "r32",
           "stageLabel": "Round of 32",
           "stageBonus": 5,
           "groupMatchPoints": 7,
           "advanced": true,
           "groupStagePoints": 7,
-          "total": 12
+          "total": 15
         },
         {
           "id": "iran",
@@ -889,17 +889,17 @@
       "name": "Spain",
       "flag": "🇪🇸",
       "group": "H",
-      "w": 2,
+      "w": 3,
       "d": 1,
       "l": 0,
-      "matchPoints": 7,
+      "matchPoints": 10,
       "stage": "r32",
       "stageLabel": "Round of 32",
       "stageBonus": 5,
       "groupMatchPoints": 7,
       "advanced": true,
       "groupStagePoints": 7,
-      "total": 12
+      "total": 15
     },
     "uruguay": {
       "id": "uruguay",
@@ -1044,7 +1044,7 @@
       "group": "J",
       "w": 1,
       "d": 1,
-      "l": 1,
+      "l": 2,
       "matchPoints": 4,
       "stage": "r32",
       "stageLabel": "Round of 32",
