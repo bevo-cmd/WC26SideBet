@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T17:03:23.922Z",
+  "updatedAt": "2026-07-03T21:45:05.374Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -636,7 +636,7 @@
       "group": "D",
       "w": 1,
       "d": 1,
-      "l": 1,
+      "l": 2,
       "matchPoints": 4,
       "stage": "r32",
       "stageLabel": "Round of 32",
@@ -821,17 +821,17 @@
       "name": "Egypt",
       "flag": "🇪🇬",
       "group": "G",
-      "w": 1,
+      "w": 2,
       "d": 2,
       "l": 0,
-      "matchPoints": 5,
+      "matchPoints": 8,
       "stage": "r32",
       "stageLabel": "Round of 32",
       "stageBonus": 5,
       "groupMatchPoints": 5,
       "advanced": true,
       "groupStagePoints": 5,
-      "total": 10
+      "total": 13
     },
     "iran": {
       "id": "iran",
