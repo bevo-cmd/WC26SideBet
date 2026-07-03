@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T10:16:13.561Z",
+  "updatedAt": "2026-07-03T17:03:23.922Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -333,7 +333,7 @@
     {
       "id": "brian",
       "name": "Brian",
-      "total": 19,
+      "total": 24,
       "groupTotal": 11,
       "teams": [
         {
@@ -345,13 +345,13 @@
           "d": 1,
           "l": 0,
           "matchPoints": 10,
-          "stage": "r32",
-          "stageLabel": "Round of 32",
-          "stageBonus": 5,
+          "stage": "r16",
+          "stageLabel": "Round of 16",
+          "stageBonus": 10,
           "groupMatchPoints": 7,
           "advanced": true,
           "groupStagePoints": 7,
-          "total": 15
+          "total": 20
         },
         {
           "id": "iran",
@@ -502,13 +502,13 @@
       "d": 1,
       "l": 0,
       "matchPoints": 10,
-      "stage": "r32",
-      "stageLabel": "Round of 32",
-      "stageBonus": 5,
+      "stage": "r16",
+      "stageLabel": "Round of 16",
+      "stageBonus": 10,
       "groupMatchPoints": 7,
       "advanced": true,
       "groupStagePoints": 7,
-      "total": 15
+      "total": 20
     },
     "bosnia-herzegovina": {
       "id": "bosnia-herzegovina",
@@ -893,13 +893,13 @@
       "d": 1,
       "l": 0,
       "matchPoints": 10,
-      "stage": "r32",
-      "stageLabel": "Round of 32",
-      "stageBonus": 5,
+      "stage": "r16",
+      "stageLabel": "Round of 16",
+      "stageBonus": 10,
       "groupMatchPoints": 7,
       "advanced": true,
       "groupStagePoints": 7,
-      "total": 15
+      "total": 20
     },
     "uruguay": {
       "id": "uruguay",
@@ -1114,13 +1114,13 @@
       "d": 2,
       "l": 0,
       "matchPoints": 8,
-      "stage": "r32",
-      "stageLabel": "Round of 32",
-      "stageBonus": 5,
+      "stage": "r16",
+      "stageLabel": "Round of 16",
+      "stageBonus": 10,
       "groupMatchPoints": 5,
       "advanced": true,
       "groupStagePoints": 5,
-      "total": 13
+      "total": 18
     },
     "dr-congo": {
       "id": "dr-congo",
