@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T08:12:20.269Z",
+  "updatedAt": "2026-07-04T14:50:47.027Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -179,6 +179,82 @@
       ]
     },
     {
+      "id": "bev",
+      "name": "Bev",
+      "total": 45,
+      "groupTotal": 22,
+      "teams": [
+        {
+          "id": "argentina",
+          "name": "Argentina",
+          "flag": "🇦🇷",
+          "group": "J",
+          "w": 4,
+          "d": 0,
+          "l": 0,
+          "matchPoints": 12,
+          "stage": "r16",
+          "stageLabel": "Round of 16",
+          "stageBonus": 10,
+          "groupMatchPoints": 9,
+          "advanced": true,
+          "groupStagePoints": 9,
+          "total": 22
+        },
+        {
+          "id": "turkiye",
+          "name": "Türkiye",
+          "flag": "🇹🇷",
+          "group": "D",
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "matchPoints": 3,
+          "stage": "group",
+          "stageLabel": "Group stage",
+          "stageBonus": 0,
+          "groupMatchPoints": 3,
+          "advanced": false,
+          "groupStagePoints": 3,
+          "total": 3
+        },
+        {
+          "id": "south-africa",
+          "name": "South Africa",
+          "flag": "🇿🇦",
+          "group": "A",
+          "w": 1,
+          "d": 1,
+          "l": 2,
+          "matchPoints": 4,
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "groupMatchPoints": 4,
+          "advanced": true,
+          "groupStagePoints": 4,
+          "total": 9
+        },
+        {
+          "id": "cote-divoire",
+          "name": "Ivory Coast",
+          "flag": "🇨🇮",
+          "group": "E",
+          "w": 2,
+          "d": 0,
+          "l": 2,
+          "matchPoints": 6,
+          "stage": "r32",
+          "stageLabel": "Round of 32",
+          "stageBonus": 5,
+          "groupMatchPoints": 6,
+          "advanced": true,
+          "groupStagePoints": 6,
+          "total": 11
+        }
+      ]
+    },
+    {
       "id": "faisal",
       "name": "Faisal",
       "total": 41,
@@ -251,82 +327,6 @@
           "advanced": true,
           "groupStagePoints": 4,
           "total": 17
-        }
-      ]
-    },
-    {
-      "id": "bev",
-      "name": "Bev",
-      "total": 40,
-      "groupTotal": 22,
-      "teams": [
-        {
-          "id": "argentina",
-          "name": "Argentina",
-          "flag": "🇦🇷",
-          "group": "J",
-          "w": 4,
-          "d": 0,
-          "l": 0,
-          "matchPoints": 12,
-          "stage": "r32",
-          "stageLabel": "Round of 32",
-          "stageBonus": 5,
-          "groupMatchPoints": 9,
-          "advanced": true,
-          "groupStagePoints": 9,
-          "total": 17
-        },
-        {
-          "id": "turkiye",
-          "name": "Türkiye",
-          "flag": "🇹🇷",
-          "group": "D",
-          "w": 1,
-          "d": 0,
-          "l": 2,
-          "matchPoints": 3,
-          "stage": "group",
-          "stageLabel": "Group stage",
-          "stageBonus": 0,
-          "groupMatchPoints": 3,
-          "advanced": false,
-          "groupStagePoints": 3,
-          "total": 3
-        },
-        {
-          "id": "south-africa",
-          "name": "South Africa",
-          "flag": "🇿🇦",
-          "group": "A",
-          "w": 1,
-          "d": 1,
-          "l": 2,
-          "matchPoints": 4,
-          "stage": "r32",
-          "stageLabel": "Round of 32",
-          "stageBonus": 5,
-          "groupMatchPoints": 4,
-          "advanced": true,
-          "groupStagePoints": 4,
-          "total": 9
-        },
-        {
-          "id": "cote-divoire",
-          "name": "Ivory Coast",
-          "flag": "🇨🇮",
-          "group": "E",
-          "w": 2,
-          "d": 0,
-          "l": 2,
-          "matchPoints": 6,
-          "stage": "r32",
-          "stageLabel": "Round of 32",
-          "stageBonus": 5,
-          "groupMatchPoints": 6,
-          "advanced": true,
-          "groupStagePoints": 6,
-          "total": 11
         }
       ]
     },
@@ -825,13 +825,13 @@
       "d": 2,
       "l": 0,
       "matchPoints": 8,
-      "stage": "r32",
-      "stageLabel": "Round of 32",
-      "stageBonus": 5,
+      "stage": "r16",
+      "stageLabel": "Round of 16",
+      "stageBonus": 10,
       "groupMatchPoints": 5,
       "advanced": true,
       "groupStagePoints": 5,
-      "total": 13
+      "total": 18
     },
     "iran": {
       "id": "iran",
@@ -1029,13 +1029,13 @@
       "d": 0,
       "l": 0,
       "matchPoints": 12,
-      "stage": "r32",
-      "stageLabel": "Round of 32",
-      "stageBonus": 5,
+      "stage": "r16",
+      "stageLabel": "Round of 16",
+      "stageBonus": 10,
       "groupMatchPoints": 9,
       "advanced": true,
       "groupStagePoints": 9,
-      "total": 17
+      "total": 22
     },
     "austria": {
       "id": "austria",
@@ -1097,13 +1097,13 @@
       "d": 1,
       "l": 0,
       "matchPoints": 10,
-      "stage": "r32",
-      "stageLabel": "Round of 32",
-      "stageBonus": 5,
+      "stage": "r16",
+      "stageLabel": "Round of 16",
+      "stageBonus": 10,
       "groupMatchPoints": 7,
       "advanced": true,
       "groupStagePoints": 7,
-      "total": 15
+      "total": 20
     },
     "portugal": {
       "id": "portugal",
