@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T14:50:47.027Z",
+  "updatedAt": "2026-07-04T20:15:01.943Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -318,7 +318,7 @@
           "group": "B",
           "w": 2,
           "d": 1,
-          "l": 1,
+          "l": 2,
           "matchPoints": 7,
           "stage": "r16",
           "stageLabel": "Round of 16",
@@ -483,7 +483,7 @@
       "group": "B",
       "w": 2,
       "d": 1,
-      "l": 1,
+      "l": 2,
       "matchPoints": 7,
       "stage": "r16",
       "stageLabel": "Round of 16",
@@ -566,17 +566,17 @@
       "name": "Morocco",
       "flag": "🇲🇦",
       "group": "C",
-      "w": 3,
+      "w": 4,
       "d": 1,
       "l": 0,
-      "matchPoints": 10,
+      "matchPoints": 13,
       "stage": "r16",
       "stageLabel": "Round of 16",
       "stageBonus": 10,
       "groupMatchPoints": 7,
       "advanced": true,
       "groupStagePoints": 7,
-      "total": 20
+      "total": 23
     },
     "scotland": {
       "id": "scotland",
