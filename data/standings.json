@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T21:45:05.374Z",
+  "updatedAt": "2026-07-04T08:12:20.269Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -257,7 +257,7 @@
     {
       "id": "bev",
       "name": "Bev",
-      "total": 37,
+      "total": 40,
       "groupTotal": 22,
       "teams": [
         {
@@ -265,17 +265,17 @@
           "name": "Argentina",
           "flag": "🇦🇷",
           "group": "J",
-          "w": 3,
+          "w": 4,
           "d": 0,
           "l": 0,
-          "matchPoints": 9,
+          "matchPoints": 12,
           "stage": "r32",
           "stageLabel": "Round of 32",
           "stageBonus": 5,
           "groupMatchPoints": 9,
           "advanced": true,
           "groupStagePoints": 9,
-          "total": 14
+          "total": 17
         },
         {
           "id": "turkiye",
@@ -925,7 +925,7 @@
       "group": "H",
       "w": 0,
       "d": 3,
-      "l": 0,
+      "l": 1,
       "matchPoints": 3,
       "stage": "r32",
       "stageLabel": "Round of 32",
@@ -1025,17 +1025,17 @@
       "name": "Argentina",
       "flag": "🇦🇷",
       "group": "J",
-      "w": 3,
+      "w": 4,
       "d": 0,
       "l": 0,
-      "matchPoints": 9,
+      "matchPoints": 12,
       "stage": "r32",
       "stageLabel": "Round of 32",
       "stageBonus": 5,
       "groupMatchPoints": 9,
       "advanced": true,
       "groupStagePoints": 9,
-      "total": 14
+      "total": 17
     },
     "austria": {
       "id": "austria",
@@ -1093,17 +1093,17 @@
       "name": "Colombia",
       "flag": "🇨🇴",
       "group": "K",
-      "w": 2,
+      "w": 3,
       "d": 1,
       "l": 0,
-      "matchPoints": 7,
+      "matchPoints": 10,
       "stage": "r32",
       "stageLabel": "Round of 32",
       "stageBonus": 5,
       "groupMatchPoints": 7,
       "advanced": true,
       "groupStagePoints": 7,
-      "total": 12
+      "total": 15
     },
     "portugal": {
       "id": "portugal",
@@ -1180,7 +1180,7 @@
       "group": "L",
       "w": 1,
       "d": 1,
-      "l": 1,
+      "l": 2,
       "matchPoints": 4,
       "stage": "r32",
       "stageLabel": "Round of 32",
