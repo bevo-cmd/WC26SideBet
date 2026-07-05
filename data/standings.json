@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T15:01:13.648Z",
+  "updatedAt": "2026-07-05T20:20:45.440Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -570,13 +570,13 @@
       "d": 1,
       "l": 0,
       "matchPoints": 13,
-      "stage": "r16",
-      "stageLabel": "Round of 16",
-      "stageBonus": 10,
+      "stage": "qf",
+      "stageLabel": "Quarter-final",
+      "stageBonus": 20,
       "groupMatchPoints": 7,
       "advanced": true,
       "groupStagePoints": 7,
-      "total": 23
+      "total": 33
     },
     "scotland": {
       "id": "scotland",
@@ -961,13 +961,13 @@
       "d": 0,
       "l": 0,
       "matchPoints": 15,
-      "stage": "r16",
-      "stageLabel": "Round of 16",
-      "stageBonus": 10,
+      "stage": "qf",
+      "stageLabel": "Quarter-final",
+      "stageBonus": 20,
       "groupMatchPoints": 9,
       "advanced": true,
       "groupStagePoints": 9,
-      "total": 25
+      "total": 35
     },
     "norway": {
       "id": "norway",
