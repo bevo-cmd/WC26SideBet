@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T20:20:45.440Z",
+  "updatedAt": "2026-07-06T12:28:09.646Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -29,7 +29,7 @@
     {
       "id": "sa",
       "name": "Sa",
-      "total": 61,
+      "total": 67,
       "groupTotal": 22,
       "teams": [
         {
@@ -37,17 +37,17 @@
           "name": "England",
           "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
           "group": "L",
-          "w": 3,
+          "w": 4,
           "d": 1,
           "l": 0,
-          "matchPoints": 10,
+          "matchPoints": 13,
           "stage": "r16",
           "stageLabel": "Round of 16",
           "stageBonus": 10,
           "groupMatchPoints": 7,
           "advanced": true,
           "groupStagePoints": 7,
-          "total": 20
+          "total": 23
         },
         {
           "id": "united-states",
@@ -88,17 +88,17 @@
           "name": "Norway",
           "flag": "🇳🇴",
           "group": "I",
-          "w": 3,
+          "w": 4,
           "d": 0,
           "l": 1,
-          "matchPoints": 9,
+          "matchPoints": 12,
           "stage": "r16",
           "stageLabel": "Round of 16",
           "stageBonus": 10,
           "groupMatchPoints": 6,
           "advanced": true,
           "groupStagePoints": 6,
-          "total": 19
+          "total": 22
         }
       ]
     },
@@ -115,7 +115,7 @@
           "group": "C",
           "w": 3,
           "d": 1,
-          "l": 0,
+          "l": 1,
           "matchPoints": 10,
           "stage": "r16",
           "stageLabel": "Round of 16",
@@ -415,7 +415,7 @@
       "group": "A",
       "w": 4,
       "d": 0,
-      "l": 0,
+      "l": 1,
       "matchPoints": 12,
       "stage": "r16",
       "stageLabel": "Round of 16",
@@ -551,7 +551,7 @@
       "group": "C",
       "w": 3,
       "d": 1,
-      "l": 0,
+      "l": 1,
       "matchPoints": 10,
       "stage": "r16",
       "stageLabel": "Round of 16",
@@ -974,17 +974,17 @@
       "name": "Norway",
       "flag": "🇳🇴",
       "group": "I",
-      "w": 3,
+      "w": 4,
       "d": 0,
       "l": 1,
-      "matchPoints": 9,
+      "matchPoints": 12,
       "stage": "r16",
       "stageLabel": "Round of 16",
       "stageBonus": 10,
       "groupMatchPoints": 6,
       "advanced": true,
       "groupStagePoints": 6,
-      "total": 19
+      "total": 22
     },
     "senegal": {
       "id": "senegal",
@@ -1161,17 +1161,17 @@
       "name": "England",
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "group": "L",
-      "w": 3,
+      "w": 4,
       "d": 1,
       "l": 0,
-      "matchPoints": 10,
+      "matchPoints": 13,
       "stage": "r16",
       "stageLabel": "Round of 16",
       "stageBonus": 10,
       "groupMatchPoints": 7,
       "advanced": true,
       "groupStagePoints": 7,
-      "total": 20
+      "total": 23
     },
     "ghana": {
       "id": "ghana",
