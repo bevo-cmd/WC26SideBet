@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T12:28:09.646Z",
+  "updatedAt": "2026-07-06T20:58:37.539Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -29,7 +29,7 @@
     {
       "id": "sa",
       "name": "Sa",
-      "total": 67,
+      "total": 87,
       "groupTotal": 22,
       "teams": [
         {
@@ -41,13 +41,13 @@
           "d": 1,
           "l": 0,
           "matchPoints": 13,
-          "stage": "r16",
-          "stageLabel": "Round of 16",
-          "stageBonus": 10,
+          "stage": "qf",
+          "stageLabel": "Quarter-final",
+          "stageBonus": 20,
           "groupMatchPoints": 7,
           "advanced": true,
           "groupStagePoints": 7,
-          "total": 23
+          "total": 33
         },
         {
           "id": "united-states",
@@ -92,13 +92,13 @@
           "d": 0,
           "l": 1,
           "matchPoints": 12,
-          "stage": "r16",
-          "stageLabel": "Round of 16",
-          "stageBonus": 10,
+          "stage": "qf",
+          "stageLabel": "Quarter-final",
+          "stageBonus": 20,
           "groupMatchPoints": 6,
           "advanced": true,
           "groupStagePoints": 6,
-          "total": 22
+          "total": 32
         }
       ]
     },
@@ -978,13 +978,13 @@
       "d": 0,
       "l": 1,
       "matchPoints": 12,
-      "stage": "r16",
-      "stageLabel": "Round of 16",
-      "stageBonus": 10,
+      "stage": "qf",
+      "stageLabel": "Quarter-final",
+      "stageBonus": 20,
       "groupMatchPoints": 6,
       "advanced": true,
       "groupStagePoints": 6,
-      "total": 22
+      "total": 32
     },
     "senegal": {
       "id": "senegal",
@@ -1165,13 +1165,13 @@
       "d": 1,
       "l": 0,
       "matchPoints": 13,
-      "stage": "r16",
-      "stageLabel": "Round of 16",
-      "stageBonus": 10,
+      "stage": "qf",
+      "stageLabel": "Quarter-final",
+      "stageBonus": 20,
       "groupMatchPoints": 7,
       "advanced": true,
       "groupStagePoints": 7,
-      "total": 23
+      "total": 33
     },
     "ghana": {
       "id": "ghana",
