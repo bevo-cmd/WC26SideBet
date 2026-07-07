@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T19:17:15.391Z",
+  "updatedAt": "2026-07-07T23:31:20.464Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -498,17 +498,17 @@
       "name": "Switzerland",
       "flag": "🇨🇭",
       "group": "B",
-      "w": 3,
+      "w": 4,
       "d": 1,
       "l": 0,
-      "matchPoints": 10,
+      "matchPoints": 13,
       "stage": "r16",
       "stageLabel": "Round of 16",
       "stageBonus": 10,
       "groupMatchPoints": 7,
       "advanced": true,
       "groupStagePoints": 7,
-      "total": 20
+      "total": 23
     },
     "bosnia-herzegovina": {
       "id": "bosnia-herzegovina",
@@ -1095,7 +1095,7 @@
       "group": "K",
       "w": 3,
       "d": 1,
-      "l": 0,
+      "l": 1,
       "matchPoints": 10,
       "stage": "r16",
       "stageLabel": "Round of 16",
