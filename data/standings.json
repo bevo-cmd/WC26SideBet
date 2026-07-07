@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T20:58:37.539Z",
+  "updatedAt": "2026-07-07T10:33:57.828Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -56,7 +56,7 @@
           "group": "D",
           "w": 3,
           "d": 0,
-          "l": 1,
+          "l": 2,
           "matchPoints": 9,
           "stage": "r16",
           "stageLabel": "Round of 16",
@@ -333,7 +333,7 @@
     {
       "id": "brian",
       "name": "Brian",
-      "total": 24,
+      "total": 27,
       "groupTotal": 11,
       "teams": [
         {
@@ -341,17 +341,17 @@
           "name": "Spain",
           "flag": "🇪🇸",
           "group": "H",
-          "w": 3,
+          "w": 4,
           "d": 1,
           "l": 0,
-          "matchPoints": 10,
+          "matchPoints": 13,
           "stage": "r16",
           "stageLabel": "Round of 16",
           "stageBonus": 10,
           "groupMatchPoints": 7,
           "advanced": true,
           "groupStagePoints": 7,
-          "total": 20
+          "total": 23
         },
         {
           "id": "iran",
@@ -619,7 +619,7 @@
       "group": "D",
       "w": 3,
       "d": 0,
-      "l": 1,
+      "l": 2,
       "matchPoints": 9,
       "stage": "r16",
       "stageLabel": "Round of 16",
@@ -855,17 +855,17 @@
       "name": "Belgium",
       "flag": "🇧🇪",
       "group": "G",
-      "w": 2,
+      "w": 3,
       "d": 2,
       "l": 0,
-      "matchPoints": 8,
+      "matchPoints": 11,
       "stage": "r16",
       "stageLabel": "Round of 16",
       "stageBonus": 10,
       "groupMatchPoints": 5,
       "advanced": true,
       "groupStagePoints": 5,
-      "total": 18
+      "total": 21
     },
     "new-zealand": {
       "id": "new-zealand",
@@ -889,17 +889,17 @@
       "name": "Spain",
       "flag": "🇪🇸",
       "group": "H",
-      "w": 3,
+      "w": 4,
       "d": 1,
       "l": 0,
-      "matchPoints": 10,
+      "matchPoints": 13,
       "stage": "r16",
       "stageLabel": "Round of 16",
       "stageBonus": 10,
       "groupMatchPoints": 7,
       "advanced": true,
       "groupStagePoints": 7,
-      "total": 20
+      "total": 23
     },
     "uruguay": {
       "id": "uruguay",
@@ -1112,7 +1112,7 @@
       "group": "K",
       "w": 2,
       "d": 2,
-      "l": 0,
+      "l": 1,
       "matchPoints": 8,
       "stage": "r16",
       "stageLabel": "Round of 16",
