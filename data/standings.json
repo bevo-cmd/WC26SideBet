@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T18:28:00.772Z",
+  "updatedAt": "2026-07-09T23:53:47.940Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -568,7 +568,7 @@
       "group": "C",
       "w": 4,
       "d": 1,
-      "l": 0,
+      "l": 1,
       "matchPoints": 13,
       "stage": "qf",
       "stageLabel": "Quarter-final",
@@ -957,17 +957,17 @@
       "name": "France",
       "flag": "🇫🇷",
       "group": "I",
-      "w": 5,
+      "w": 6,
       "d": 0,
       "l": 0,
-      "matchPoints": 15,
+      "matchPoints": 18,
       "stage": "qf",
       "stageLabel": "Quarter-final",
       "stageBonus": 20,
       "groupMatchPoints": 9,
       "advanced": true,
       "groupStagePoints": 9,
-      "total": 35
+      "total": 38
     },
     "norway": {
       "id": "norway",
