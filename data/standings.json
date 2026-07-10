@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T18:08:36.188Z",
+  "updatedAt": "2026-07-10T23:32:13.887Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -333,7 +333,7 @@
     {
       "id": "brian",
       "name": "Brian",
-      "total": 37,
+      "total": 40,
       "groupTotal": 11,
       "teams": [
         {
@@ -341,17 +341,17 @@
           "name": "Spain",
           "flag": "🇪🇸",
           "group": "H",
-          "w": 4,
+          "w": 5,
           "d": 1,
           "l": 0,
-          "matchPoints": 13,
+          "matchPoints": 16,
           "stage": "qf",
           "stageLabel": "Quarter-final",
           "stageBonus": 20,
           "groupMatchPoints": 7,
           "advanced": true,
           "groupStagePoints": 7,
-          "total": 33
+          "total": 36
         },
         {
           "id": "iran",
@@ -857,7 +857,7 @@
       "group": "G",
       "w": 3,
       "d": 2,
-      "l": 0,
+      "l": 1,
       "matchPoints": 11,
       "stage": "qf",
       "stageLabel": "Quarter-final",
@@ -889,17 +889,17 @@
       "name": "Spain",
       "flag": "🇪🇸",
       "group": "H",
-      "w": 4,
+      "w": 5,
       "d": 1,
       "l": 0,
-      "matchPoints": 13,
+      "matchPoints": 16,
       "stage": "qf",
       "stageLabel": "Quarter-final",
       "stageBonus": 20,
       "groupMatchPoints": 7,
       "advanced": true,
       "groupStagePoints": 7,
-      "total": 33
+      "total": 36
     },
     "uruguay": {
       "id": "uruguay",
