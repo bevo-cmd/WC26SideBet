@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T22:33:03.221Z",
+  "updatedAt": "2026-07-12T07:50:25.999Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -29,7 +29,7 @@
     {
       "id": "sa",
       "name": "Sa",
-      "total": 87,
+      "total": 90,
       "groupTotal": 22,
       "teams": [
         {
@@ -37,17 +37,17 @@
           "name": "England",
           "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
           "group": "L",
-          "w": 4,
+          "w": 5,
           "d": 1,
           "l": 0,
-          "matchPoints": 13,
+          "matchPoints": 16,
           "stage": "qf",
           "stageLabel": "Quarter-final",
           "stageBonus": 20,
           "groupMatchPoints": 7,
           "advanced": true,
           "groupStagePoints": 7,
-          "total": 33
+          "total": 36
         },
         {
           "id": "united-states",
@@ -90,7 +90,7 @@
           "group": "I",
           "w": 4,
           "d": 0,
-          "l": 1,
+          "l": 2,
           "matchPoints": 12,
           "stage": "qf",
           "stageLabel": "Quarter-final",
@@ -105,7 +105,7 @@
     {
       "id": "bev",
       "name": "Bev",
-      "total": 58,
+      "total": 61,
       "groupTotal": 22,
       "teams": [
         {
@@ -113,17 +113,17 @@
           "name": "Argentina",
           "flag": "🇦🇷",
           "group": "J",
-          "w": 5,
+          "w": 6,
           "d": 0,
           "l": 0,
-          "matchPoints": 15,
+          "matchPoints": 18,
           "stage": "qf",
           "stageLabel": "Quarter-final",
           "stageBonus": 20,
           "groupMatchPoints": 9,
           "advanced": true,
           "groupStagePoints": 9,
-          "total": 35
+          "total": 38
         },
         {
           "id": "turkiye",
@@ -500,7 +500,7 @@
       "group": "B",
       "w": 4,
       "d": 1,
-      "l": 0,
+      "l": 1,
       "matchPoints": 13,
       "stage": "qf",
       "stageLabel": "Quarter-final",
@@ -976,7 +976,7 @@
       "group": "I",
       "w": 4,
       "d": 0,
-      "l": 1,
+      "l": 2,
       "matchPoints": 12,
       "stage": "qf",
       "stageLabel": "Quarter-final",
@@ -1025,17 +1025,17 @@
       "name": "Argentina",
       "flag": "🇦🇷",
       "group": "J",
-      "w": 5,
+      "w": 6,
       "d": 0,
       "l": 0,
-      "matchPoints": 15,
+      "matchPoints": 18,
       "stage": "qf",
       "stageLabel": "Quarter-final",
       "stageBonus": 20,
       "groupMatchPoints": 9,
       "advanced": true,
       "groupStagePoints": 9,
-      "total": 35
+      "total": 38
     },
     "austria": {
       "id": "austria",
@@ -1161,17 +1161,17 @@
       "name": "England",
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "group": "L",
-      "w": 4,
+      "w": 5,
       "d": 1,
       "l": 0,
-      "matchPoints": 13,
+      "matchPoints": 16,
       "stage": "qf",
       "stageLabel": "Quarter-final",
       "stageBonus": 20,
       "groupMatchPoints": 7,
       "advanced": true,
       "groupStagePoints": 7,
-      "total": 33
+      "total": 36
     },
     "ghana": {
       "id": "ghana",
