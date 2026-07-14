@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T17:49:02.190Z",
+  "updatedAt": "2026-07-14T21:32:30.747Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -181,7 +181,7 @@
     {
       "id": "brian",
       "name": "Brian",
-      "total": 55,
+      "total": 58,
       "groupTotal": 11,
       "teams": [
         {
@@ -189,17 +189,17 @@
           "name": "Spain",
           "flag": "🇪🇸",
           "group": "H",
-          "w": 5,
+          "w": 6,
           "d": 1,
           "l": 0,
-          "matchPoints": 16,
+          "matchPoints": 19,
           "stage": "sf",
           "stageLabel": "Semi-final",
           "stageBonus": 35,
           "groupMatchPoints": 7,
           "advanced": true,
           "groupStagePoints": 7,
-          "total": 51
+          "total": 54
         },
         {
           "id": "iran",
@@ -889,17 +889,17 @@
       "name": "Spain",
       "flag": "🇪🇸",
       "group": "H",
-      "w": 5,
+      "w": 6,
       "d": 1,
       "l": 0,
-      "matchPoints": 16,
+      "matchPoints": 19,
       "stage": "sf",
       "stageLabel": "Semi-final",
       "stageBonus": 35,
       "groupMatchPoints": 7,
       "advanced": true,
       "groupStagePoints": 7,
-      "total": 51
+      "total": 54
     },
     "uruguay": {
       "id": "uruguay",
@@ -959,7 +959,7 @@
       "group": "I",
       "w": 6,
       "d": 0,
-      "l": 0,
+      "l": 1,
       "matchPoints": 18,
       "stage": "sf",
       "stageLabel": "Semi-final",
