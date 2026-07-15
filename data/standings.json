@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T06:29:46.127Z",
+  "updatedAt": "2026-07-15T12:54:38.446Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -103,6 +103,82 @@
       ]
     },
     {
+      "id": "brian",
+      "name": "Brian",
+      "total": 88,
+      "groupTotal": 11,
+      "teams": [
+        {
+          "id": "spain",
+          "name": "Spain",
+          "flag": "🇪🇸",
+          "group": "H",
+          "w": 6,
+          "d": 1,
+          "l": 0,
+          "matchPoints": 19,
+          "stage": "runner",
+          "stageLabel": "Runner-up",
+          "stageBonus": 65,
+          "groupMatchPoints": 7,
+          "advanced": true,
+          "groupStagePoints": 7,
+          "total": 84
+        },
+        {
+          "id": "iran",
+          "name": "Iran",
+          "flag": "🇮🇷",
+          "group": "G",
+          "w": 0,
+          "d": 3,
+          "l": 0,
+          "matchPoints": 3,
+          "stage": "group",
+          "stageLabel": "Group stage",
+          "stageBonus": 0,
+          "groupMatchPoints": 3,
+          "advanced": false,
+          "groupStagePoints": 3,
+          "total": 3
+        },
+        {
+          "id": "jordan",
+          "name": "Jordan",
+          "flag": "🇯🇴",
+          "group": "J",
+          "w": 0,
+          "d": 0,
+          "l": 3,
+          "matchPoints": 0,
+          "stage": "group",
+          "stageLabel": "Group stage",
+          "stageBonus": 0,
+          "groupMatchPoints": 0,
+          "advanced": false,
+          "groupStagePoints": 0,
+          "total": 0
+        },
+        {
+          "id": "qatar",
+          "name": "Qatar",
+          "flag": "🇶🇦",
+          "group": "B",
+          "w": 0,
+          "d": 1,
+          "l": 2,
+          "matchPoints": 1,
+          "stage": "group",
+          "stageLabel": "Group stage",
+          "stageBonus": 0,
+          "groupMatchPoints": 1,
+          "advanced": false,
+          "groupStagePoints": 1,
+          "total": 1
+        }
+      ]
+    },
+    {
       "id": "bev",
       "name": "Bev",
       "total": 76,
@@ -175,82 +251,6 @@
           "advanced": true,
           "groupStagePoints": 6,
           "total": 11
-        }
-      ]
-    },
-    {
-      "id": "brian",
-      "name": "Brian",
-      "total": 58,
-      "groupTotal": 11,
-      "teams": [
-        {
-          "id": "spain",
-          "name": "Spain",
-          "flag": "🇪🇸",
-          "group": "H",
-          "w": 6,
-          "d": 1,
-          "l": 0,
-          "matchPoints": 19,
-          "stage": "sf",
-          "stageLabel": "Semi-final",
-          "stageBonus": 35,
-          "groupMatchPoints": 7,
-          "advanced": true,
-          "groupStagePoints": 7,
-          "total": 54
-        },
-        {
-          "id": "iran",
-          "name": "Iran",
-          "flag": "🇮🇷",
-          "group": "G",
-          "w": 0,
-          "d": 3,
-          "l": 0,
-          "matchPoints": 3,
-          "stage": "group",
-          "stageLabel": "Group stage",
-          "stageBonus": 0,
-          "groupMatchPoints": 3,
-          "advanced": false,
-          "groupStagePoints": 3,
-          "total": 3
-        },
-        {
-          "id": "jordan",
-          "name": "Jordan",
-          "flag": "🇯🇴",
-          "group": "J",
-          "w": 0,
-          "d": 0,
-          "l": 3,
-          "matchPoints": 0,
-          "stage": "group",
-          "stageLabel": "Group stage",
-          "stageBonus": 0,
-          "groupMatchPoints": 0,
-          "advanced": false,
-          "groupStagePoints": 0,
-          "total": 0
-        },
-        {
-          "id": "qatar",
-          "name": "Qatar",
-          "flag": "🇶🇦",
-          "group": "B",
-          "w": 0,
-          "d": 1,
-          "l": 2,
-          "matchPoints": 1,
-          "stage": "group",
-          "stageLabel": "Group stage",
-          "stageBonus": 0,
-          "groupMatchPoints": 1,
-          "advanced": false,
-          "groupStagePoints": 1,
-          "total": 1
         }
       ]
     },
@@ -893,13 +893,13 @@
       "d": 1,
       "l": 0,
       "matchPoints": 19,
-      "stage": "sf",
-      "stageLabel": "Semi-final",
-      "stageBonus": 35,
+      "stage": "runner",
+      "stageLabel": "Runner-up",
+      "stageBonus": 65,
       "groupMatchPoints": 7,
       "advanced": true,
       "groupStagePoints": 7,
-      "total": 54
+      "total": 84
     },
     "uruguay": {
       "id": "uruguay",
