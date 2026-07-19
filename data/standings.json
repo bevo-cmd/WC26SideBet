@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T22:33:28.107Z",
+  "updatedAt": "2026-07-19T07:51:23.561Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -26,6 +26,82 @@
     "first": 100
   },
   "players": [
+    {
+      "id": "sa",
+      "name": "Sa",
+      "total": 128,
+      "groupTotal": 22,
+      "teams": [
+        {
+          "id": "england",
+          "name": "England",
+          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "group": "L",
+          "w": 6,
+          "d": 1,
+          "l": 1,
+          "matchPoints": 19,
+          "stage": "third",
+          "stageLabel": "3rd place",
+          "stageBonus": 55,
+          "groupMatchPoints": 7,
+          "advanced": true,
+          "groupStagePoints": 7,
+          "total": 74
+        },
+        {
+          "id": "united-states",
+          "name": "United States",
+          "flag": "🇺🇸",
+          "group": "D",
+          "w": 3,
+          "d": 0,
+          "l": 2,
+          "matchPoints": 9,
+          "stage": "r16",
+          "stageLabel": "Round of 16",
+          "stageBonus": 10,
+          "groupMatchPoints": 6,
+          "advanced": true,
+          "groupStagePoints": 6,
+          "total": 19
+        },
+        {
+          "id": "scotland",
+          "name": "Scotland",
+          "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+          "group": "C",
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "matchPoints": 3,
+          "stage": "group",
+          "stageLabel": "Group stage",
+          "stageBonus": 0,
+          "groupMatchPoints": 3,
+          "advanced": false,
+          "groupStagePoints": 3,
+          "total": 3
+        },
+        {
+          "id": "norway",
+          "name": "Norway",
+          "flag": "🇳🇴",
+          "group": "I",
+          "w": 4,
+          "d": 0,
+          "l": 2,
+          "matchPoints": 12,
+          "stage": "qf",
+          "stageLabel": "Quarter-final",
+          "stageBonus": 20,
+          "groupMatchPoints": 6,
+          "advanced": true,
+          "groupStagePoints": 6,
+          "total": 32
+        }
+      ]
+    },
     {
       "id": "bev",
       "name": "Bev",
@@ -99,82 +175,6 @@
           "advanced": true,
           "groupStagePoints": 6,
           "total": 11
-        }
-      ]
-    },
-    {
-      "id": "sa",
-      "name": "Sa",
-      "total": 105,
-      "groupTotal": 22,
-      "teams": [
-        {
-          "id": "england",
-          "name": "England",
-          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-          "group": "L",
-          "w": 5,
-          "d": 1,
-          "l": 1,
-          "matchPoints": 16,
-          "stage": "sf",
-          "stageLabel": "Semi-final",
-          "stageBonus": 35,
-          "groupMatchPoints": 7,
-          "advanced": true,
-          "groupStagePoints": 7,
-          "total": 51
-        },
-        {
-          "id": "united-states",
-          "name": "United States",
-          "flag": "🇺🇸",
-          "group": "D",
-          "w": 3,
-          "d": 0,
-          "l": 2,
-          "matchPoints": 9,
-          "stage": "r16",
-          "stageLabel": "Round of 16",
-          "stageBonus": 10,
-          "groupMatchPoints": 6,
-          "advanced": true,
-          "groupStagePoints": 6,
-          "total": 19
-        },
-        {
-          "id": "scotland",
-          "name": "Scotland",
-          "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-          "group": "C",
-          "w": 1,
-          "d": 0,
-          "l": 2,
-          "matchPoints": 3,
-          "stage": "group",
-          "stageLabel": "Group stage",
-          "stageBonus": 0,
-          "groupMatchPoints": 3,
-          "advanced": false,
-          "groupStagePoints": 3,
-          "total": 3
-        },
-        {
-          "id": "norway",
-          "name": "Norway",
-          "flag": "🇳🇴",
-          "group": "I",
-          "w": 4,
-          "d": 0,
-          "l": 2,
-          "matchPoints": 12,
-          "stage": "qf",
-          "stageLabel": "Quarter-final",
-          "stageBonus": 20,
-          "groupMatchPoints": 6,
-          "advanced": true,
-          "groupStagePoints": 6,
-          "total": 32
         }
       ]
     },
@@ -959,15 +959,15 @@
       "group": "I",
       "w": 6,
       "d": 0,
-      "l": 1,
+      "l": 2,
       "matchPoints": 18,
-      "stage": "sf",
-      "stageLabel": "Semi-final",
-      "stageBonus": 35,
+      "stage": "fourth",
+      "stageLabel": "4th place",
+      "stageBonus": 45,
       "groupMatchPoints": 9,
       "advanced": true,
       "groupStagePoints": 9,
-      "total": 53
+      "total": 63
     },
     "norway": {
       "id": "norway",
@@ -1161,17 +1161,17 @@
       "name": "England",
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "group": "L",
-      "w": 5,
+      "w": 6,
       "d": 1,
       "l": 1,
-      "matchPoints": 16,
-      "stage": "sf",
-      "stageLabel": "Semi-final",
-      "stageBonus": 35,
+      "matchPoints": 19,
+      "stage": "third",
+      "stageLabel": "3rd place",
+      "stageBonus": 55,
       "groupMatchPoints": 7,
       "advanced": true,
       "groupStagePoints": 7,
-      "total": 51
+      "total": 74
     },
     "ghana": {
       "id": "ghana",
