@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T08:29:01.949Z",
+  "updatedAt": "2026-07-20T16:10:06.393Z",
   "feedUpdatedAt": null,
   "source": "openfootball/worldcup.json (2026)",
   "scoring": {
@@ -115,7 +115,7 @@
           "group": "J",
           "w": 7,
           "d": 0,
-          "l": 0,
+          "l": 1,
           "matchPoints": 21,
           "stage": "runner",
           "stageLabel": "Runner-up",
@@ -181,7 +181,7 @@
     {
       "id": "brian",
       "name": "Brian",
-      "total": 88,
+      "total": 106,
       "groupTotal": 11,
       "teams": [
         {
@@ -189,17 +189,17 @@
           "name": "Spain",
           "flag": "🇪🇸",
           "group": "H",
-          "w": 6,
+          "w": 7,
           "d": 1,
           "l": 0,
-          "matchPoints": 19,
-          "stage": "runner",
-          "stageLabel": "Runner-up",
-          "stageBonus": 65,
+          "matchPoints": 22,
+          "stage": "champion",
+          "stageLabel": "Champion",
+          "stageBonus": 80,
           "groupMatchPoints": 7,
           "advanced": true,
           "groupStagePoints": 7,
-          "total": 84
+          "total": 102
         },
         {
           "id": "iran",
@@ -889,17 +889,17 @@
       "name": "Spain",
       "flag": "🇪🇸",
       "group": "H",
-      "w": 6,
+      "w": 7,
       "d": 1,
       "l": 0,
-      "matchPoints": 19,
-      "stage": "runner",
-      "stageLabel": "Runner-up",
-      "stageBonus": 65,
+      "matchPoints": 22,
+      "stage": "champion",
+      "stageLabel": "Champion",
+      "stageBonus": 80,
       "groupMatchPoints": 7,
       "advanced": true,
       "groupStagePoints": 7,
-      "total": 84
+      "total": 102
     },
     "uruguay": {
       "id": "uruguay",
@@ -1027,7 +1027,7 @@
       "group": "J",
       "w": 7,
       "d": 0,
-      "l": 0,
+      "l": 1,
       "matchPoints": 21,
       "stage": "runner",
       "stageLabel": "Runner-up",
